@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "海草調查點位互動地圖（靜態網站 / GitHub Pages）",
+  "description": "海草調查點位資訊查詢地圖（靜態網站 / GitHub Pages）",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
