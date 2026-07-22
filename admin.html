@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"
+    />
+    <meta name="description" content="海草調查點位地圖：管理者編輯介面。" />
+    <title>管理者模式：海草調查點位地圖</title>
+  </head>
+  <body class="admin-body">
+    <div id="admin-app">
+      <header id="app-header">
+        <h1>管理者模式：標記編輯器</h1>
+        <a id="front-link" href="./index.html">回前台檢視</a>
+      </header>
+      <div id="admin-layout">
+        <aside id="admin-controls"></aside>
+        <main id="map-wrap">
+          <div id="map" role="application" aria-label="標記編輯地圖"></div>
+        </main>
+      </div>
+      <footer id="app-footer">製作者：黃政文</footer>
+    </div>
+    <script type="module" src="/src/admin.ts"></script>
+  </body>
+</html>

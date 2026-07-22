@@ -1,0 +1,58 @@
+/* 地圖與編號標記樣式 */
+.leaflet-container {
+  background: #dfe6ea;
+  font: inherit;
+}
+
+/* marker element 由 Leaflet 以 transform:translate 定位，
+   縮放動畫改作用在內層 SVG，避免覆蓋定位。 */
+.pin {
+  cursor: pointer;
+}
+
+.pin__svg {
+  display: block;
+  transform-origin: 50% 100%; /* 以尖端為縮放基準 */
+  transition: transform 0.12s ease;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.35));
+}
+
+.pin__body {
+  fill: #0f6e84;
+  stroke: #ffffff;
+  stroke-width: 2.5;
+}
+
+.pin__num {
+  fill: #ffffff;
+  font-weight: 700;
+  font-family: system-ui, "Microsoft JhengHei", sans-serif;
+}
+
+.pin:hover .pin__svg,
+.pin:focus-visible .pin__svg {
+  transform: scale(1.15);
+}
+
+.pin:focus-visible {
+  outline: none;
+}
+
+.pin:focus-visible .pin__body {
+  stroke: #ffd166;
+  stroke-width: 3.5;
+}
+
+/* 選中：放大、加深、置頂 */
+.pin--selected .pin__svg {
+  transform: scale(1.35);
+}
+
+.pin--selected .pin__body {
+  fill: #0a4f5f;
+}
+
+/* 密集點位可分辨：選中時其餘標記降低不透明度 */
+.leaflet-container.has-selection .pin:not(.pin--selected) {
+  opacity: 0.4;
+}

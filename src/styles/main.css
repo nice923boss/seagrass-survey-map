@@ -1,0 +1,101 @@
+/* 基礎樣式與版面（Phase 2 / 4 逐步擴充） */
+:root {
+  --c-bg: #f4f6f8;
+  --c-surface: #ffffff;
+  --c-text: #1a2b34;
+  --c-text-muted: #5c6b73;
+  --c-border: #d5dde2;
+  --c-accent: #0f6e84;
+  --c-accent-dark: #0a4f5f;
+  --c-danger: #b3261e;
+  --header-h: 52px;
+  --footer-h: 28px;
+  font-family: "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: var(--c-text);
+  background: var(--c-bg);
+}
+
+#app,
+#admin-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+}
+
+#app-header {
+  height: var(--header-h);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background: var(--c-accent-dark);
+  color: #fff;
+}
+
+#app-header h1 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+#app-header a {
+  color: #d7eef3;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+#app-header a:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+#map-wrap {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+#map {
+  position: absolute;
+  inset: 0;
+  background: #e9edf0;
+}
+
+.map-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c-text-muted);
+  font-size: 0.95rem;
+  pointer-events: none;
+}
+
+#app-footer {
+  height: var(--footer-h);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 12px;
+  font-size: 0.72rem;
+  color: var(--c-text-muted);
+  background: var(--c-surface);
+  border-top: 1px solid var(--c-border);
+}

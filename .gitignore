@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.local
+.env
+.env.*
+
+# 憑證絕不進 repo（Service Account 金鑰、PAT 等）
+service-account*.json
+*-credentials.json
+*.pem
+secrets/

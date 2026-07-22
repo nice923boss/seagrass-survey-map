@@ -1,0 +1,43 @@
+name: Sync survey data
+
+on:
+  schedule:
+    # 每日 02:00 台灣時間（UTC 18:00）
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+
+      # 抓取並正規化資料。資料驗證失敗時此步驟會失敗（回傳非零），workflow 中止。
+      # DATA_SOURCE 預設 csvPublic（零憑證，適用公開試算表）。
+      # 若試算表改為私有，於 repo variables 設 DATA_SOURCE=sheetsApi，
+      # 並於 secrets 設 GOOGLE_SERVICE_ACCOUNT_JSON。
+      - run: npm run fetch:data
+        env:
+          DATA_SOURCE: ${{ vars.DATA_SOURCE || 'csvPublic' }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_TAB_NAME: ${{ vars.SHEET_TAB_NAME }}
+
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain public/data/surveys.json public/assets/photos)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add public/data/surveys.json public/assets/photos
+            git commit -m "chore: 自動更新 surveys.json 與照片"
+            git push
+          else
+            echo "資料無變更，略過提交。"
+          fi
