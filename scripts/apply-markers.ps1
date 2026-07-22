@@ -23,6 +23,9 @@ Copy-Item $latest.FullName "public\data\markers.json" -Force
 git add public/data/markers.json
 if (git status --porcelain public/data/markers.json) {
     git commit -m "chore: update marker coordinates" | Out-Null
+    # Sync with the remote first (daily auto-sync commits there); markers and
+    # survey data are different files, so this rebases cleanly.
+    git pull --rebase origin main 2>&1 | Out-Null
     git push
     Write-Host "  Uploaded. The website will update in a few minutes." -ForegroundColor Green
 }

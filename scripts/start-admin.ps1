@@ -3,6 +3,11 @@
 $ErrorActionPreference = "SilentlyContinue"
 $root = Split-Path -Parent $PSScriptRoot
 Set-Location $root
+
+# Pull the latest data (daily auto-sync runs on GitHub) so the editor shows
+# current markers. Best effort; ignored if offline or unclean.
+git pull origin main 2>&1 | Out-Null
+
 $port = 5173
 $url = "http://localhost:$port/admin.html"
 
