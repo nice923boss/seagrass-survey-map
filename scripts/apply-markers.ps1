@@ -1,7 +1,11 @@
 # Copy the latest exported markers.json from the Downloads folder into the
 # project, then commit and push so GitHub Pages redeploys with the new
 # coordinates. Uses the already-authenticated git credentials (no token needed).
-$ErrorActionPreference = "Stop"
+#
+# Note: we intentionally do NOT set $ErrorActionPreference = "Stop". git writes
+# normal progress to stderr, and PowerShell 5.1 would otherwise treat that as an
+# error and abort the script (window closes before anything is pushed).
+
 $root = Split-Path -Parent $PSScriptRoot
 Set-Location $root
 
@@ -20,16 +24,25 @@ Write-Host ""
 Write-Host "  Applying: $($latest.Name)   (saved $($latest.LastWriteTime))" -ForegroundColor Cyan
 Copy-Item $latest.FullName "public\data\markers.json" -Force
 
+$status = git status --porcelain public/data/markers.json
+if (-not $status) {
+    Write-Host "  Coordinates are unchanged; nothing to upload." -ForegroundColor Yellow
+    Read-Host "  Press Enter to close"
+    exit 0
+}
+
+Write-Host "  Uploading to GitHub..." -ForegroundColor Cyan
 git add public/data/markers.json
-if (git status --porcelain public/data/markers.json) {
-    git commit -m "chore: update marker coordinates" | Out-Null
-    # Sync with the remote first (daily auto-sync commits there); markers and
-    # survey data are different files, so this rebases cleanly.
-    git pull --rebase origin main 2>&1 | Out-Null
-    git push
-    Write-Host "  Uploaded. The website will update in a few minutes." -ForegroundColor Green
+git commit -m "chore: update marker coordinates"
+git pull --rebase origin main
+git push
+$ok = ($LASTEXITCODE -eq 0)
+
+Write-Host ""
+if ($ok) {
+    Write-Host "  Done! The website will update in a few minutes." -ForegroundColor Green
 }
 else {
-    Write-Host "  Coordinates are unchanged; nothing to upload." -ForegroundColor Yellow
+    Write-Host "  Upload failed. Check your internet connection and try again." -ForegroundColor Red
 }
 Read-Host "  Press Enter to close"
