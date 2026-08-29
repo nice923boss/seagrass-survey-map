@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T19:46:39.068Z",
+  "generatedAt": "2026-08-29T01:29:04.267Z",
   "source": "csvPublic",
   "points": [
     {
@@ -22,10 +22,6 @@
                 {
                   "label": "潮汐",
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "其他"
                 },
                 {
                   "label": "點位調查時間",
@@ -353,10 +349,6 @@
                 {
                   "label": "潮汐",
                   "value": "乾潮 (包含乾潮後 1 小時)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -713,10 +705,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 18:00-19:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:37:00"
                 }
@@ -1056,10 +1044,6 @@
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 3:30:00"
                 }
@@ -1366,10 +1350,6 @@
                   "value": "退潮中 (滿潮後 1 小時 ~ 乾潮前)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 3:40:00"
                 }
@@ -1630,10 +1610,6 @@
                 {
                   "label": "潮汐",
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -1936,6 +1912,351 @@
       "name": "點位2",
       "surveys": [
         {
+          "date": "2026-08-27",
+          "submittedAt": "2026-08-27T09:28:05+08:00",
+          "surveyor": "劉峻儒, 小幫手",
+          "recorder": "111",
+          "sections": [
+            {
+              "title": "基本資訊",
+              "fields": [
+                {
+                  "label": "天候狀況",
+                  "value": "陰"
+                },
+                {
+                  "label": "潮汐",
+                  "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
+                },
+                {
+                  "label": "點位調查時間",
+                  "value": "上午 11:11:00"
+                }
+              ]
+            },
+            {
+              "title": "Ａ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "40%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "20%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "0%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "70%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "40%, 普通"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "40%, 普通"
+                }
+              ]
+            },
+            {
+              "title": "Ｂ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "30%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "30%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "30%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "30%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "30%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "30%, 佳"
+                }
+              ]
+            },
+            {
+              "title": "Ｃ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "50%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "50%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "40%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "40%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "40%, 普通"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "40%, 普通"
+                }
+              ]
+            },
+            {
+              "title": "整體觀察",
+              "fields": [
+                {
+                  "label": "本點位的整體觀察",
+                  "value": "有沒有看到水生物在海草裡面利用、泥沙覆蓋"
+                }
+              ]
+            },
+            {
+              "title": "水質",
+              "fields": [
+                {
+                  "label": "1.水溫",
+                  "value": "45"
+                },
+                {
+                  "label": "2.鹽度",
+                  "value": "45"
+                },
+                {
+                  "label": "3.pH",
+                  "value": "7.8 - 8.4"
+                },
+                {
+                  "label": "4.亞硝酸鹽（NO₂⁻）",
+                  "value": "10"
+                },
+                {
+                  "label": "5.硝酸鹽（NO₃⁻）",
+                  "value": "0 - 10"
+                },
+                {
+                  "label": "6.氨氮（NH4/NH₃）",
+                  "value": "5 - 10"
+                },
+                {
+                  "label": "7.水質採樣(50 mL)",
+                  "value": "完成"
+                },
+                {
+                  "label": "8.底質採樣(50 mL)",
+                  "value": "完成"
+                },
+                {
+                  "label": "水質狀況說明（異常、異味、顏色、漂浮物等）",
+                  "value": "異常、異味、顏色、漂浮物"
+                }
+              ]
+            },
+            {
+              "title": "水生物調查",
+              "fields": [
+                {
+                  "label": "１．傘籠捕捉到的「 整體數量 」",
+                  "value": "少    （佔小橘桶25~50%）"
+                },
+                {
+                  "label": "２．傘籠捕捉到的「 水生物比例 」 [魚]",
+                  "value": "40%"
+                },
+                {
+                  "label": "２．傘籠捕捉到的「 水生物比例 」 [蝦]",
+                  "value": "30%"
+                },
+                {
+                  "label": "２．傘籠捕捉到的「 水生物比例 」 [蟹]",
+                  "value": "50%"
+                },
+                {
+                  "label": "２．傘籠捕捉到的「 水生物比例 」 [其他 (沒有請勾\"0%\")]",
+                  "value": "10%"
+                },
+                {
+                  "label": "３．傘籠捕捉到的「 種類數量 」",
+                  "value": "魚３種(15隻)、蝦２種(10隻)、蟹２種(6隻)"
+                },
+                {
+                  "label": "１．長城籠捕捉到的「 整體數量 」",
+                  "value": "多 （佔小橘桶75~100%）"
+                },
+                {
+                  "label": "２．長城籠捕捉到的「 水生物比例 」 [魚]",
+                  "value": "30%"
+                },
+                {
+                  "label": "２．長城籠捕捉到的「 水生物比例 」 [蝦]",
+                  "value": "40%"
+                },
+                {
+                  "label": "２．長城籠捕捉到的「 水生物比例 」 [蟹]",
+                  "value": "20%"
+                },
+                {
+                  "label": "２．長城籠捕捉到的「 水生物比例 」 [其他 (沒有請勾\"0%\")]",
+                  "value": "20%"
+                },
+                {
+                  "label": "３．長城籠捕捉到的「 種類數量 」",
+                  "value": "魚３種(15隻)、蝦２種(10隻)、蟹２種(6隻)"
+                },
+                {
+                  "label": "水生物處理方式",
+                  "value": "釋回"
+                },
+                {
+                  "label": "其他補充紀錄",
+                  "value": "魚３種(15隻)、蝦２種(10隻)、蟹２種(6隻)魚３種(15隻)、蝦２種(10隻)、蟹２種(6隻)"
+                }
+              ]
+            },
+            {
+              "title": "植株與物候",
+              "fields": [
+                {
+                  "label": "株數 - 卵葉鹽草",
+                  "value": "90"
+                },
+                {
+                  "label": "株數 - 線葉二藥草",
+                  "value": "90"
+                },
+                {
+                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "value": "7"
+                },
+                {
+                  "label": "線葉 - 葉長 (庇護高度)",
+                  "value": "8"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "開花形成, 結果成熟"
+                }
+              ]
+            }
+          ],
+          "photoGroups": [
+            {
+              "label": "Ａ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1sMK61Y3kG3rsIbPJnNucqmHUVlWRn4J8",
+                  "thumb": "assets/photos/1sMK61Y3kG3rsIbPJnNucqmHUVlWRn4J8.webp",
+                  "full": "assets/photos/1sMK61Y3kG3rsIbPJnNucqmHUVlWRn4J8.webp"
+                },
+                {
+                  "fileId": "1trdHRTySxL1U7VP9ma3wN_WZwV2VhzTM",
+                  "thumb": "assets/photos/1trdHRTySxL1U7VP9ma3wN_WZwV2VhzTM.webp",
+                  "full": "assets/photos/1trdHRTySxL1U7VP9ma3wN_WZwV2VhzTM.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｂ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1_qLs4okeOBBxqb5mRJRFiayxJZBkQtwr",
+                  "thumb": "assets/photos/1_qLs4okeOBBxqb5mRJRFiayxJZBkQtwr.webp",
+                  "full": "assets/photos/1_qLs4okeOBBxqb5mRJRFiayxJZBkQtwr.webp"
+                },
+                {
+                  "fileId": "15A0a5SZIu3fFmm-En9e1TRSgQoGblPG-",
+                  "thumb": "assets/photos/15A0a5SZIu3fFmm-En9e1TRSgQoGblPG-.webp",
+                  "full": "assets/photos/15A0a5SZIu3fFmm-En9e1TRSgQoGblPG-.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｃ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1Y_q38hucDh3jEwqRnzDyvTGf-G-NPrgk",
+                  "thumb": "assets/photos/1Y_q38hucDh3jEwqRnzDyvTGf-G-NPrgk.webp",
+                  "full": "assets/photos/1Y_q38hucDh3jEwqRnzDyvTGf-G-NPrgk.webp"
+                },
+                {
+                  "fileId": "1N3UE1VuNZLSU1TLPrnC5r1m2whx31_t5",
+                  "thumb": "assets/photos/1N3UE1VuNZLSU1TLPrnC5r1m2whx31_t5.webp",
+                  "full": "assets/photos/1N3UE1VuNZLSU1TLPrnC5r1m2whx31_t5.webp"
+                }
+              ]
+            },
+            {
+              "label": "水質照片",
+              "photos": [
+                {
+                  "fileId": "1cdZb_YryWlC4ICzjB6bZ9jmYU_HJ1j4A",
+                  "thumb": "assets/photos/1cdZb_YryWlC4ICzjB6bZ9jmYU_HJ1j4A.webp",
+                  "full": "assets/photos/1cdZb_YryWlC4ICzjB6bZ9jmYU_HJ1j4A.webp"
+                },
+                {
+                  "fileId": "13-caWbfLAys-sZQnB08QtEIntI4GjMl7",
+                  "thumb": "assets/photos/13-caWbfLAys-sZQnB08QtEIntI4GjMl7.webp",
+                  "full": "assets/photos/13-caWbfLAys-sZQnB08QtEIntI4GjMl7.webp"
+                },
+                {
+                  "fileId": "1qCstH5Dy6mXdnFkQXc4BW4qspjpld46u",
+                  "thumb": "assets/photos/1qCstH5Dy6mXdnFkQXc4BW4qspjpld46u.webp",
+                  "full": "assets/photos/1qCstH5Dy6mXdnFkQXc4BW4qspjpld46u.webp"
+                }
+              ]
+            },
+            {
+              "label": "水生物照片",
+              "photos": [
+                {
+                  "fileId": "1gluOlt38KHEHjv0h0ilnfWOj_eGLZzgt",
+                  "thumb": "assets/photos/1gluOlt38KHEHjv0h0ilnfWOj_eGLZzgt.webp",
+                  "full": "assets/photos/1gluOlt38KHEHjv0h0ilnfWOj_eGLZzgt.webp"
+                },
+                {
+                  "fileId": "1tK_6ZXYz7wcbNj9XpvxGYOjmP96cvXr1",
+                  "thumb": "assets/photos/1tK_6ZXYz7wcbNj9XpvxGYOjmP96cvXr1.webp",
+                  "full": "assets/photos/1tK_6ZXYz7wcbNj9XpvxGYOjmP96cvXr1.webp"
+                }
+              ]
+            },
+            {
+              "label": "樣本照片",
+              "photos": [
+                {
+                  "fileId": "1tOJZmWQh7tyuOoz3nK6AMqwxbY5ADiv-",
+                  "thumb": "assets/photos/1tOJZmWQh7tyuOoz3nK6AMqwxbY5ADiv-.webp",
+                  "full": "assets/photos/1tOJZmWQh7tyuOoz3nK6AMqwxbY5ADiv-.webp"
+                },
+                {
+                  "fileId": "1KYtbASzA-rCF7Gd7JccsNtARds-eYT7Q",
+                  "thumb": "assets/photos/1KYtbASzA-rCF7Gd7JccsNtARds-eYT7Q.webp",
+                  "full": "assets/photos/1KYtbASzA-rCF7Gd7JccsNtARds-eYT7Q.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "date": "2026-08-26",
           "submittedAt": "2026-08-26T23:59:41+08:00",
           "surveyor": "小幫手",
@@ -2160,20 +2481,20 @@
                   "value": "11"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "label": "株數 - 線葉二藥草",
                   "value": "11"
                 },
                 {
-                  "label": "物候階段觀察、記錄",
-                  "value": "結果成熟, 葉片老化"
-                },
-                {
-                  "label": "株數 - 線葉二藥草",
+                  "label": "卵葉 - 葉長 (庇護高度)",
                   "value": "11"
                 },
                 {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "11"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "結果成熟, 葉片老化"
                 }
               ]
             }
@@ -2578,10 +2899,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 3:47:00"
                 }
@@ -2917,10 +3234,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 3:47:00"
                 }
@@ -3247,10 +3560,6 @@
                 {
                   "label": "潮汐",
                   "value": "乾潮 (包含乾潮後 1 小時)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -3917,10 +4226,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 3:38:00"
                 }
@@ -4256,10 +4561,6 @@
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:07:00"
                 }
@@ -4564,10 +4865,6 @@
                 {
                   "label": "潮汐",
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -5188,10 +5485,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:15:00"
                 }
@@ -5531,10 +5824,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:15:00"
                 }
@@ -5857,10 +6146,6 @@
                 {
                   "label": "潮汐",
                   "value": "乾潮 (包含乾潮後 1 小時)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -6227,10 +6512,6 @@
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:26:00"
                 }
@@ -6517,10 +6798,6 @@
                 {
                   "label": "潮汐",
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -7102,10 +7379,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:41:00"
                 }
@@ -7436,10 +7709,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:41:00"
                 }
@@ -7757,10 +8026,6 @@
                 {
                   "label": "潮汐",
                   "value": "乾潮 (包含乾潮後 1 小時)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -8110,10 +8375,6 @@
                 {
                   "label": "潮汐",
                   "value": "乾潮 (包含乾潮後 1 小時)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -8476,10 +8737,6 @@
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:40:00"
                 }
@@ -8766,10 +9023,6 @@
                 {
                   "label": "潮汐",
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -9417,10 +9670,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:55:00"
                 }
@@ -9751,10 +10000,6 @@
                   "value": "乾潮 (包含乾潮後 1 小時)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 4:55:00"
                 }
@@ -10068,10 +10313,6 @@
                 {
                   "label": "潮汐",
                   "value": "乾潮 (包含乾潮後 1 小時)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -10445,10 +10686,6 @@
                 {
                   "label": "潮汐",
                   "value": "乾潮 (包含乾潮後 1 小時)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -10829,10 +11066,6 @@
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
                 },
                 {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
-                },
-                {
                   "label": "點位調查時間",
                   "value": "下午 5:02:00"
                 }
@@ -11104,10 +11337,6 @@
                 {
                   "label": "潮汐",
                   "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
-                },
-                {
-                  "label": "放網時間",
-                  "value": "前一晚 17:00-18:00"
                 },
                 {
                   "label": "點位調查時間",
@@ -11532,20 +11761,20 @@
                   "value": "0"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "label": "株數 - 線葉二藥草",
                   "value": "0"
                 },
                 {
-                  "label": "物候階段觀察、記錄",
-                  "value": "無"
-                },
-                {
-                  "label": "株數 - 線葉二藥草",
+                  "label": "卵葉 - 葉長 (庇護高度)",
                   "value": "0"
                 },
                 {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "無"
                 }
               ]
             }
@@ -11793,20 +12022,20 @@
                   "value": "0"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "label": "株數 - 線葉二藥草",
                   "value": "0"
                 },
                 {
-                  "label": "物候階段觀察、記錄",
-                  "value": "地上部退縮"
-                },
-                {
-                  "label": "株數 - 線葉二藥草",
+                  "label": "卵葉 - 葉長 (庇護高度)",
                   "value": "0"
                 },
                 {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "地上部退縮"
                 }
               ]
             }
@@ -12324,20 +12553,20 @@
                   "value": "168"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
-                  "value": "4.3"
-                },
-                {
-                  "label": "物候階段觀察、記錄",
-                  "value": "新芽生長"
-                },
-                {
                   "label": "株數 - 線葉二藥草",
                   "value": "0"
                 },
                 {
+                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "value": "4.3"
+                },
+                {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "新芽生長"
                 }
               ]
             }
@@ -12585,20 +12814,20 @@
                   "value": "71"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
-                  "value": "4"
-                },
-                {
-                  "label": "物候階段觀察、記錄",
-                  "value": "新芽生長, 結果成熟"
-                },
-                {
                   "label": "株數 - 線葉二藥草",
                   "value": "0"
                 },
                 {
+                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "value": "4"
+                },
+                {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "新芽生長, 結果成熟"
                 }
               ]
             }
@@ -13115,20 +13344,20 @@
                   "value": "320"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
-                  "value": "5.3"
-                },
-                {
-                  "label": "物候階段觀察、記錄",
-                  "value": "新芽生長"
-                },
-                {
                   "label": "株數 - 線葉二藥草",
                   "value": "0"
                 },
                 {
+                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "value": "5.3"
+                },
+                {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "新芽生長"
                 }
               ]
             }
@@ -13371,20 +13600,20 @@
                   "value": "50"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
-                  "value": "3.9"
-                },
-                {
-                  "label": "物候階段觀察、記錄",
-                  "value": "新芽生長"
-                },
-                {
                   "label": "株數 - 線葉二藥草",
                   "value": "0"
                 },
                 {
+                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "value": "3.9"
+                },
+                {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "新芽生長"
                 }
               ]
             }
@@ -13920,20 +14149,20 @@
                   "value": "91"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
-                  "value": "4.1"
-                },
-                {
-                  "label": "物候階段觀察、記錄",
-                  "value": "新芽生長, 開花形成"
-                },
-                {
                   "label": "株數 - 線葉二藥草",
                   "value": "0"
                 },
                 {
+                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "value": "4.1"
+                },
+                {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "新芽生長, 開花形成"
                 }
               ]
             }
@@ -14489,20 +14718,20 @@
                   "value": "11"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "label": "株數 - 線葉二藥草",
                   "value": "11"
                 },
                 {
-                  "label": "物候階段觀察、記錄",
-                  "value": "結果成熟,"
-                },
-                {
-                  "label": "株數 - 線葉二藥草",
+                  "label": "卵葉 - 葉長 (庇護高度)",
                   "value": "11"
                 },
                 {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "11"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "結果成熟,"
                 }
               ]
             }
@@ -14720,20 +14949,20 @@
                   "value": "未測量"
                 },
                 {
-                  "label": "卵葉 - 葉長 (庇護高度)",
-                  "value": "4.16"
-                },
-                {
-                  "label": "物候階段觀察、記錄",
-                  "value": "新芽生長"
-                },
-                {
                   "label": "株數 - 線葉二藥草",
                   "value": "未測量"
                 },
                 {
+                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "value": "4.16"
+                },
+                {
                   "label": "線葉 - 葉長 (庇護高度)",
                   "value": "13.2"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "新芽生長"
                 }
               ]
             }
