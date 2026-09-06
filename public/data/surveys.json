@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T19:59:06.444Z",
+  "generatedAt": "2026-09-06T20:03:02.527Z",
   "source": "csvPublic",
   "points": [
     {
@@ -16278,6 +16278,267 @@
       "name": "點位8",
       "surveys": [
         {
+          "date": "2026-09-06",
+          "submittedAt": "2026-09-06T11:37:21+08:00",
+          "surveyor": "郭三賢, 陳寶樹, 劉中慧",
+          "recorder": "陳寶樹",
+          "sections": [
+            {
+              "title": "基本資訊",
+              "fields": [
+                {
+                  "label": "天候狀況",
+                  "value": "晴"
+                },
+                {
+                  "label": "潮汐",
+                  "value": "退潮中 (滿潮後 1 小時 ~ 乾潮前)"
+                },
+                {
+                  "label": "點位調查時間",
+                  "value": "上午 11:05:00"
+                }
+              ]
+            },
+            {
+              "title": "Ａ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "90%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "0%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "90%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "0%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "0%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%, 差"
+                }
+              ]
+            },
+            {
+              "title": "Ｂ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "90%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "0%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "80%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "10%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "0%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%, 差"
+                }
+              ]
+            },
+            {
+              "title": "Ｃ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "100%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "0%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "100%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "0%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "0%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%, 差"
+                }
+              ]
+            },
+            {
+              "title": "整體觀察",
+              "fields": [
+                {
+                  "label": "本點位的整體觀察",
+                  "value": "無"
+                }
+              ]
+            },
+            {
+              "title": "水質",
+              "fields": [
+                {
+                  "label": "1.水溫",
+                  "value": "30"
+                },
+                {
+                  "label": "2.鹽度",
+                  "value": "20"
+                },
+                {
+                  "label": "3.pH",
+                  "value": "7.8 - 8.4"
+                },
+                {
+                  "label": "4.亞硝酸鹽（NO₂⁻）",
+                  "value": "1 - 5"
+                },
+                {
+                  "label": "5.硝酸鹽（NO₃⁻）",
+                  "value": "10 - 25"
+                },
+                {
+                  "label": "6.氨氮（NH4/NH₃）",
+                  "value": "1 - 3"
+                },
+                {
+                  "label": "水質狀況說明（異常、異味、顏色、漂浮物等）",
+                  "value": "清澈見底"
+                }
+              ]
+            },
+            {
+              "title": "植株與物候",
+              "fields": [
+                {
+                  "label": "株數 - 卵葉鹽草",
+                  "value": "290"
+                },
+                {
+                  "label": "株數 - 線葉二藥草",
+                  "value": "0"
+                },
+                {
+                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "value": "4.5"
+                },
+                {
+                  "label": "線葉 - 葉長 (庇護高度)",
+                  "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "新芽生長, 葉片老化"
+                }
+              ]
+            }
+          ],
+          "photoGroups": [
+            {
+              "label": "Ａ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1CsgWDZH9Gc9HJlTkPIHtDt_-umTwYNp4",
+                  "thumb": "assets/photos/1CsgWDZH9Gc9HJlTkPIHtDt_-umTwYNp4.webp",
+                  "full": "assets/photos/1CsgWDZH9Gc9HJlTkPIHtDt_-umTwYNp4.webp"
+                },
+                {
+                  "fileId": "1Sx8NUEiLdNU6gh58XMgG5M8HuQzzlKEZ",
+                  "thumb": "assets/photos/1Sx8NUEiLdNU6gh58XMgG5M8HuQzzlKEZ.webp",
+                  "full": "assets/photos/1Sx8NUEiLdNU6gh58XMgG5M8HuQzzlKEZ.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｂ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1BrZPFF6e_D-s_f63022uZq_-cVPdu7ap",
+                  "thumb": "assets/photos/1BrZPFF6e_D-s_f63022uZq_-cVPdu7ap.webp",
+                  "full": "assets/photos/1BrZPFF6e_D-s_f63022uZq_-cVPdu7ap.webp"
+                },
+                {
+                  "fileId": "1cq6LjfGAU-amAXPK3O6GczRItOA3VudG",
+                  "thumb": "assets/photos/1cq6LjfGAU-amAXPK3O6GczRItOA3VudG.webp",
+                  "full": "assets/photos/1cq6LjfGAU-amAXPK3O6GczRItOA3VudG.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｃ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1qU_Dvq35BceXnKVGGPfSx3NxmzgNU2kH",
+                  "thumb": "assets/photos/1qU_Dvq35BceXnKVGGPfSx3NxmzgNU2kH.webp",
+                  "full": "assets/photos/1qU_Dvq35BceXnKVGGPfSx3NxmzgNU2kH.webp"
+                },
+                {
+                  "fileId": "1tcya0rOZHyNznm7-FVGh-puqblPkzrlx",
+                  "thumb": "assets/photos/1tcya0rOZHyNznm7-FVGh-puqblPkzrlx.webp",
+                  "full": "assets/photos/1tcya0rOZHyNznm7-FVGh-puqblPkzrlx.webp"
+                }
+              ]
+            },
+            {
+              "label": "水質照片",
+              "photos": [
+                {
+                  "fileId": "1RsD38GesqELRQfuzd7s7gilengozHceu",
+                  "thumb": "assets/photos/1RsD38GesqELRQfuzd7s7gilengozHceu.webp",
+                  "full": "assets/photos/1RsD38GesqELRQfuzd7s7gilengozHceu.webp"
+                },
+                {
+                  "fileId": "1TTdt-OWuuz5UKrRmYNNQbI_CbWK12KBa",
+                  "thumb": "assets/photos/1TTdt-OWuuz5UKrRmYNNQbI_CbWK12KBa.webp",
+                  "full": "assets/photos/1TTdt-OWuuz5UKrRmYNNQbI_CbWK12KBa.webp"
+                },
+                {
+                  "fileId": "1CuR79rwh6bd59AyI5-AUO8jrw_iRQbfM",
+                  "thumb": "assets/photos/1CuR79rwh6bd59AyI5-AUO8jrw_iRQbfM.webp",
+                  "full": "assets/photos/1CuR79rwh6bd59AyI5-AUO8jrw_iRQbfM.webp"
+                }
+              ]
+            },
+            {
+              "label": "樣本照片",
+              "photos": [
+                {
+                  "fileId": "1_LXIaleFzxKbgZ_vaqZMbVqbhiaLgf_5",
+                  "thumb": "assets/photos/1_LXIaleFzxKbgZ_vaqZMbVqbhiaLgf_5.webp",
+                  "full": "assets/photos/1_LXIaleFzxKbgZ_vaqZMbVqbhiaLgf_5.webp"
+                },
+                {
+                  "fileId": "1EaVE-aqvQgZf012hfTKMSz7Gy8eYden5",
+                  "thumb": "assets/photos/1EaVE-aqvQgZf012hfTKMSz7Gy8eYden5.webp",
+                  "full": "assets/photos/1EaVE-aqvQgZf012hfTKMSz7Gy8eYden5.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "date": "2026-08-09",
           "submittedAt": "2026-08-09T14:47:02+08:00",
           "surveyor": "曾明堂, 賴香文, 王永欽, 黃憶珊, 楊中亞, 楊愉粧",
@@ -17078,6 +17339,262 @@
       "pointId": 9,
       "name": "點位9",
       "surveys": [
+        {
+          "date": "2026-09-06",
+          "submittedAt": "2026-09-06T12:18:11+08:00",
+          "surveyor": "郭三賢, 陳寶樹, 劉中慧",
+          "recorder": "陳寶樹",
+          "sections": [
+            {
+              "title": "基本資訊",
+              "fields": [
+                {
+                  "label": "天候狀況",
+                  "value": "晴"
+                },
+                {
+                  "label": "潮汐",
+                  "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
+                },
+                {
+                  "label": "點位調查時間",
+                  "value": "下午 12:00:00"
+                }
+              ]
+            },
+            {
+              "title": "Ａ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "80%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "20%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "60%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "20%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "20%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%, 差"
+                }
+              ]
+            },
+            {
+              "title": "Ｂ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "80%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "20%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "60%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "20%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "20%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%, 差"
+                }
+              ]
+            },
+            {
+              "title": "Ｃ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "100%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "0%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "100%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "0%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "0%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%, 差"
+                }
+              ]
+            },
+            {
+              "title": "整體觀察",
+              "fields": [
+                {
+                  "label": "本點位的整體觀察",
+                  "value": "無"
+                }
+              ]
+            },
+            {
+              "title": "水質",
+              "fields": [
+                {
+                  "label": "1.水溫",
+                  "value": "30"
+                },
+                {
+                  "label": "2.鹽度",
+                  "value": "13"
+                },
+                {
+                  "label": "3.pH",
+                  "value": "7.6 - 7.8"
+                },
+                {
+                  "label": "4.亞硝酸鹽（NO₂⁻）",
+                  "value": "1 - 5"
+                },
+                {
+                  "label": "5.硝酸鹽（NO₃⁻）",
+                  "value": "10 - 25"
+                },
+                {
+                  "label": "6.氨氮（NH4/NH₃）",
+                  "value": "0.5 - 1"
+                },
+                {
+                  "label": "水質狀況說明（異常、異味、顏色、漂浮物等）",
+                  "value": "略濁"
+                }
+              ]
+            },
+            {
+              "title": "植株與物候",
+              "fields": [
+                {
+                  "label": "株數 - 卵葉鹽草",
+                  "value": "240"
+                },
+                {
+                  "label": "株數 - 線葉二藥草",
+                  "value": "0"
+                },
+                {
+                  "label": "卵葉 - 葉長 (庇護高度)",
+                  "value": "4"
+                },
+                {
+                  "label": "線葉 - 葉長 (庇護高度)",
+                  "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "新芽生長, 葉片老化"
+                }
+              ]
+            }
+          ],
+          "photoGroups": [
+            {
+              "label": "Ａ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1HfwNAu9mBOI_MEY3YOo8fTaY4YdM2Z9_",
+                  "thumb": "assets/photos/1HfwNAu9mBOI_MEY3YOo8fTaY4YdM2Z9_.webp",
+                  "full": "assets/photos/1HfwNAu9mBOI_MEY3YOo8fTaY4YdM2Z9_.webp"
+                },
+                {
+                  "fileId": "1ZWpGNMLVs2_DYKvMBKLsAATFb9ctD5la",
+                  "thumb": "assets/photos/1ZWpGNMLVs2_DYKvMBKLsAATFb9ctD5la.webp",
+                  "full": "assets/photos/1ZWpGNMLVs2_DYKvMBKLsAATFb9ctD5la.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｂ樣框照片",
+              "photos": [
+                {
+                  "fileId": "191SYoGK7-rHNkkx8t_Zm42jeRsokIyZl",
+                  "thumb": "assets/photos/191SYoGK7-rHNkkx8t_Zm42jeRsokIyZl.webp",
+                  "full": "assets/photos/191SYoGK7-rHNkkx8t_Zm42jeRsokIyZl.webp"
+                },
+                {
+                  "fileId": "1TOs7VCt_wL4usCmzDjjr4TnhNvWDhW35",
+                  "thumb": "assets/photos/1TOs7VCt_wL4usCmzDjjr4TnhNvWDhW35.webp",
+                  "full": "assets/photos/1TOs7VCt_wL4usCmzDjjr4TnhNvWDhW35.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｃ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1IJw-Oh67R2EX47mBsGlSSrhyYKsIoeDn",
+                  "thumb": "assets/photos/1IJw-Oh67R2EX47mBsGlSSrhyYKsIoeDn.webp",
+                  "full": "assets/photos/1IJw-Oh67R2EX47mBsGlSSrhyYKsIoeDn.webp"
+                },
+                {
+                  "fileId": "1l4e515mQ9fnmpqS7VXSe2PpZ5c79ww8N",
+                  "thumb": "assets/photos/1l4e515mQ9fnmpqS7VXSe2PpZ5c79ww8N.webp",
+                  "full": "assets/photos/1l4e515mQ9fnmpqS7VXSe2PpZ5c79ww8N.webp"
+                }
+              ]
+            },
+            {
+              "label": "水質照片",
+              "photos": [
+                {
+                  "fileId": "1N_AlqeZxHNn6bzb0JS8aIWy2v8XLOIHq",
+                  "thumb": "assets/photos/1N_AlqeZxHNn6bzb0JS8aIWy2v8XLOIHq.webp",
+                  "full": "assets/photos/1N_AlqeZxHNn6bzb0JS8aIWy2v8XLOIHq.webp"
+                },
+                {
+                  "fileId": "1lvI-O4BBJYQMjtz6kix17Skbl3oSFHTf",
+                  "thumb": "assets/photos/1lvI-O4BBJYQMjtz6kix17Skbl3oSFHTf.webp",
+                  "full": "assets/photos/1lvI-O4BBJYQMjtz6kix17Skbl3oSFHTf.webp"
+                }
+              ]
+            },
+            {
+              "label": "樣本照片",
+              "photos": [
+                {
+                  "fileId": "1zIRekzxKDXX01LMueU_9co-PzsX4StxD",
+                  "thumb": "assets/photos/1zIRekzxKDXX01LMueU_9co-PzsX4StxD.webp",
+                  "full": "assets/photos/1zIRekzxKDXX01LMueU_9co-PzsX4StxD.webp"
+                },
+                {
+                  "fileId": "1mzb2V7NJ7l2kwNy3G6ZDR6c6ChPWiba5",
+                  "thumb": "assets/photos/1mzb2V7NJ7l2kwNy3G6ZDR6c6ChPWiba5.webp",
+                  "full": "assets/photos/1mzb2V7NJ7l2kwNy3G6ZDR6c6ChPWiba5.webp"
+                }
+              ]
+            }
+          ]
+        },
         {
           "date": "2026-07-21",
           "submittedAt": "2026-07-21T11:37:25+08:00",
