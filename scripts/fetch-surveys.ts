@@ -1,4 +1,4 @@
-// 主流程：抓取兩份試算表 → 驗證 → 正規化 → 寫入 public/data/surveys.json
+// 主流程：抓取試算表（目前為單一總表，見 sources/csvPublic.ts 的 SHEETS）→ 驗證 → 正規化 → 寫入 public/data/surveys.json
 //
 // 資料來源以環境變數 DATA_SOURCE 切換：
 //   csvPublic（預設）：公開 CSV 匯出，零憑證。

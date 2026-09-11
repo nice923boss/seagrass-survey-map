@@ -1,15 +1,16 @@
 # 資料契約 DATA_CONTRACT
 
-定義兩份 Google 試算表如何正規化為單一 `public/data/surveys.json`。此文件是 `scripts/normalize.ts` 的規格依據；欄位對應變動時，兩者需同步更新。
+定義 Google 試算表如何正規化為單一 `public/data/surveys.json`。此文件是 `scripts/normalize.ts` 的規格依據；欄位對應變動時，兩者需同步更新。
 
 ## 一、資料來源
 
-各讀取一份 Google 表單的「表單回應」工作表(公開 CSV 匯出，無需憑證):
+2026-09-11 起改讀客戶整理後的**單一總表**（點位 1-10 在同一工作表，公開 CSV 匯出，無需憑證）：
 
 | 來源 | 涵蓋點位 | 試算表 ID | gid | 欄數 |
 |---|---|---|---|---|
-| A | 點位 1-5 | `11nK0JFMwwIZsVBuKBABT2tUYQrXZ0WDAdJCO6ykZyXA` | `1951475389` | 67 |
-| B | 點位 6-10 | `14x231YSCjzfFMD-RpG9vTieBFPWcPc8uXkYE7j2iBxg` | `629196421` | 50 |
+| 總表 | 點位 1-10 | `1Um8gFK9OYXVnI_e7lYaJZdrlojfVwEKwsLpTeWDH5Qw` | `1951475389` | 61 |
+
+歷史：2026-09-11 前讀取兩份表單回應（A：點位 1-5，ID `11nK0JFMwwIZsVBuKBABT2tUYQrXZ0WDAdJCO6ykZyXA`；B：點位 6-10，ID `14x231YSCjzfFMD-RpG9vTieBFPWcPc8uXkYE7j2iBxg`），現已不再讀取。總表欄名與舊表相容，第四節的分組規則不變。
 
 ## 二、輸出結構 surveys.json
 

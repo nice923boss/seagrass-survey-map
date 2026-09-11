@@ -7,6 +7,8 @@ import { fileURLToPath, URL } from 'node:url'
 const includeAdmin = process.env.VITE_INCLUDE_ADMIN === 'true'
 const input: Record<string, string> = {
   main: fileURLToPath(new URL('./index.html', import.meta.url)),
+  // 專員點位編輯頁：無登入，靠難以猜測的檔名作為入口，一律隨前台部署。
+  editor: fileURLToPath(new URL('./edit-fa064de64ed8f4d8.html', import.meta.url)),
 }
 if (includeAdmin) {
   input.admin = fileURLToPath(new URL('./admin.html', import.meta.url))

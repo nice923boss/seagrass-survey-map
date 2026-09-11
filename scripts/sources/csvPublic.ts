@@ -7,9 +7,10 @@ export interface SheetInput {
   gid: string
 }
 
+// 2026-09-11 起改讀客戶整理後的單一總表（點位 1-10 同一工作表），
+// 原先的 A（點位1-5）、B（點位6-10）兩份試算表不再讀取。
 export const SHEETS: SheetInput[] = [
-  { name: 'A（點位1-5）', id: '11nK0JFMwwIZsVBuKBABT2tUYQrXZ0WDAdJCO6ykZyXA', gid: '1951475389' },
-  { name: 'B（點位6-10）', id: '14x231YSCjzfFMD-RpG9vTieBFPWcPc8uXkYE7j2iBxg', gid: '629196421' },
+  { name: '總表（點位1-10）', id: '1Um8gFK9OYXVnI_e7lYaJZdrlojfVwEKwsLpTeWDH5Qw', gid: '1951475389' },
 ]
 
 export async function fetchCsvPublic(sheet: SheetInput): Promise<string[][]> {

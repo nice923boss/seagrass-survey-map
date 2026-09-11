@@ -15,10 +15,29 @@
         <h1>海草調查點位資訊查詢地圖</h1>
         <a id="admin-link" href="./admin.html" hidden>管理者模式</a>
       </header>
-      <main id="map-wrap">
-        <div id="map" role="application" aria-label="海草調查點位地圖"></div>
-        <div id="map-loading" class="map-loading">資料載入中……</div>
-      </main>
+      <div id="content">
+        <aside id="intro" class="intro" aria-label="調查說明">
+          <p><b>說明｜</b>本調查將透過志工及公民參與方式，累積長期觀察與紀錄，建立海草棲地及其生態系統的相互關係。</p>
+          <p><b>頻率｜</b>每月一次</p>
+          <p>
+            <b>樣區｜</b>共10個點位<br />
+            1-5點位進行海草、水生物、水質調查<br />
+            6-10點位進行海草、水質調查<br />
+            每個點位進行A、B、C三個樣框調查
+          </p>
+          <p>
+            <b>內容｜</b><br />
+            1.海草：種類、覆蓋率、庇護高度、物候紀錄。( 50x50樣框法 )<br />
+            2.水生物：紀錄調查點位的魚、蝦、蟹等水生物。( 長沉籠、傘籠各一 )<br />
+            3.水質：鹽度、溫度、硝酸鹽、亞硝酸鹽、氨氮等簡易水質檢測
+          </p>
+          <p class="intro__note">※本調查由台灣環境規劃協會扇形鹽田棲地生態調查及巡護志工進行，依執行狀況及專家學者意見滾動式修正。</p>
+        </aside>
+        <main id="map-wrap">
+          <div id="map" role="application" aria-label="海草調查點位地圖"></div>
+          <div id="map-loading" class="map-loading">資料載入中……</div>
+        </main>
+      </div>
       <aside id="panel" class="panel" hidden aria-live="polite"></aside>
       <footer id="app-footer">製作者：黃政文</footer>
     </div>

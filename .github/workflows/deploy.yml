@@ -29,6 +29,10 @@ jobs:
       - run: npm run build
         env:
           VITE_BASE: /${{ github.event.repository.name }}/
+          # 專員點位編輯頁「儲存到網站」所需：fine-grained PAT（僅此 repo、Contents: Read and write）。
+          # 未設定此 secret 時編輯頁仍可用，但只能匯出 markers.json 檔案。
+          VITE_EDITOR_GITHUB_TOKEN: ${{ secrets.EDITOR_GITHUB_TOKEN }}
+          VITE_EDITOR_REPO: ${{ github.repository }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

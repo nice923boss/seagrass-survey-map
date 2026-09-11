@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # 提交後手動觸發 deploy workflow（見下方說明）
 
 jobs:
   sync:
@@ -38,6 +39,18 @@ jobs:
             git add public/data/surveys.json public/assets/photos
             git commit -m "chore: 自動更新 surveys.json 與照片"
             git push
+            echo "committed=true" >> "$GITHUB_OUTPUT"
           else
             echo "資料無變更，略過提交。"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
           fi
+        id: commit
+
+      # 重要：用 GITHUB_TOKEN 推送的 commit 不會觸發其他 workflow 的 push 事件
+      # （GitHub 防止遞迴的設計），因此 deploy.yml 不會自動跑、網站資料停在舊版。
+      # workflow_dispatch 是此規則的例外，這裡在有變更時明確觸發部署。
+      - name: Trigger deploy
+        if: steps.commit.outputs.committed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main

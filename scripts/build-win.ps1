@@ -22,7 +22,7 @@ New-Item -ItemType Directory -Force $temp | Out-Null
 
 # Mirror sources into the ASCII temp dir
 Copy-Item "$src\src" "$temp\src" -Recurse
-Copy-Item "$src\index.html", "$src\admin.html", "$src\vite.config.ts", "$src\tsconfig.json", "$src\package.json", "$src\package-lock.json" $temp
+Copy-Item "$src\index.html", "$src\admin.html", "$src\edit-fa064de64ed8f4d8.html", "$src\vite.config.ts", "$src\tsconfig.json", "$src\package.json", "$src\package-lock.json" $temp
 New-Item -ItemType Junction -Path "$temp\node_modules" -Target "$src\node_modules" | Out-Null
 New-Item -ItemType Junction -Path "$temp\public" -Target "$src\public" | Out-Null
 

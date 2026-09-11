@@ -129,6 +129,16 @@
   background: var(--c-accent-dark);
 }
 
+.ed__primary:disabled {
+  background: #9fb4ba;
+  cursor: not-allowed;
+}
+
+.ed__reset {
+  width: 100%;
+  margin-top: 8px;
+}
+
 .ed__gh summary {
   cursor: pointer;
   font-size: 0.9rem;

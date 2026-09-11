@@ -6,8 +6,10 @@
 
 - **穩定的標記定位**：Leaflet `CRS.Simple` + `imageOverlay`，標記存底圖像素座標，與視窗尺寸、縮放無關，標記與底圖相對位置永遠不變。
 - **點位資料檢視**：點擊標記開側邊面板，預設最新調查日期、下拉切換歷史日期、分區呈現欄位（樣框覆蓋率、水質、水生物、植株物候等）、照片縮圖網格 + 燈箱（鍵盤左右、Esc）。
-- **管理者模式**（`/admin.html`）：上傳底圖、拖曳與增刪標記、即時座標、匯出 `markers.json`、選用 GitHub 寫回。
-- **資料自動同步**：GitHub Actions 排程從試算表抓取、驗證、正規化、有變更則 commit，觸發重新部署。
+- **專員點位編輯**（`/edit-fa064de64ed8f4d8.html`，隨前台部署）：不需登入，拖曳編號標記後按「儲存到網站」直接寫回 repo 並觸發重新部署。詳見「專員點位編輯」一節。
+- **管理者模式**（`/admin.html`，僅本機）：上傳底圖、拖曳與增刪標記、即時座標、匯出 `markers.json`、選用 GitHub 寫回。
+- **資料自動同步**：GitHub Actions 排程從試算表抓取、驗證、正規化、有變更則 commit，並明確觸發重新部署。
+- **左側調查說明**：前台地圖左側固定顯示調查說明（頻率、樣區、內容），窄螢幕時移到地圖上方。
 
 ## 技術
 
@@ -17,11 +19,13 @@ Vite + TypeScript + Leaflet，無重型框架。所有執行期邏輯在瀏覽�
 
 ```
 index.html / admin.html        前台 / 管理者兩個進入點
+edit-fa064de64ed8f4d8.html     專員點位編輯進入點（隨前台部署）
 src/
-  main.ts / admin.ts           進入點
+  main.ts / admin.ts / editor.ts 進入點
   map/                         地圖建立、編號標記
   panel/                       點位面板、照片網格、燈箱
   admin/                       編輯器、GitHub 寫回
+  editor/                      專員點位編輯器（拖曳 + 儲存到網站）
   data/                        型別、載入、Drive 照片解析
   styles/                      樣式
 scripts/                       抓取正規化（Node）
@@ -55,7 +59,7 @@ npm run typecheck   # 型別檢查
 - `csvPublic`（預設）：公開 CSV 匯出，零憑證。`npm run fetch:data`
 - `sheetsApi`：Service Account 唯讀。`DATA_SOURCE=sheetsApi npm run fetch:data`
 
-流程：抓兩份試算表，驗證（點位須 1-10、日期須合法，異常則中止並回傳非零），正規化（見 `docs/DATA_CONTRACT.md`），寫入 `public/data/surveys.json`。調查日期漏填時會退回以時間戳記的日期為準。
+流程：抓取試算表（2026-09-11 起為客戶整理的單一總表，點位 1-10 同一工作表，設定在 `scripts/sources/csvPublic.ts` 的 `SHEETS`），驗證（點位須 1-10、日期須合法，異常則中止並回傳非零），正規化（見 `docs/DATA_CONTRACT.md`），寫入 `public/data/surveys.json`。調查日期漏填時會退回以時間戳記的日期為準。
 
 ## 調整欄位對應
 
@@ -76,7 +80,7 @@ npm run typecheck   # 型別檢查
 
 1. Google Cloud 建專案，啟用 Google Sheets API。
 2. 建 Service Account，下載 JSON 金鑰。
-3. 把兩份試算表「共用」給 Service Account 的 email（檢視者即可）。
+3. 把試算表「共用」給 Service Account 的 email（檢視者即可）。
 4. repo `Settings → Secrets and variables → Actions`：Secrets 設 `GOOGLE_SERVICE_ACCOUNT_JSON`（整段 JSON），Variables 設 `DATA_SOURCE=sheetsApi`。
 5. 若工作表名稱非「表單回應 1」，Variables 設 `SHEET_TAB_NAME`。
 
@@ -100,7 +104,26 @@ npm run typecheck   # 型別檢查
 - 自訂網域：把 `deploy.yml` 的 `VITE_BASE` 改為 `/`。
 - 啟用：repo `Settings → Pages → Source` 選「GitHub Actions」。
 
-自動同步 `sync-data.yml`：每日排程 + 手動觸發（`workflow_dispatch`），資料有變更才 commit，進而觸發重新部署。
+自動同步 `sync-data.yml`：每日 02:00（台灣時間）排程 + 手動觸發（`workflow_dispatch`），資料有變更才 commit，並在 commit 後以 `gh workflow run deploy.yml` 明確觸發重新部署。
+
+> 為什麼要明確觸發：GitHub 規定用 `GITHUB_TOKEN` 推送的 commit **不會**觸發其他 workflow 的 `push` 事件。2026-07-22 至 2026-09-11 間同步排程每天都有正常 commit 新資料到 `main`，但 `deploy.yml` 從未被觸發，網站一直停在 7/22 的資料（客戶看不到 7/23、8/9 的調查即為此因）。現已在 sync 內明確觸發部署，`workflow_dispatch` 不受上述限制。
+
+## 專員點位編輯
+
+網址：`https://<user>.github.io/<repo>/edit-fa064de64ed8f4d8.html`（不需登入，靠難以猜測的檔名作為入口；頁面含 `noindex`，前台沒有連結指向它）。
+
+操作：拖曳地圖上的編號標記到正確位置，按「儲存到網站」，約 1 至 2 分鐘後前台更新（儲存會 commit `public/data/markers.json` 到 `main`，觸發 `deploy.yml`）。「還原為目前網站版本」可放棄未儲存的變更。
+
+啟用「儲存到網站」需一次性設定（管理者操作，專員不需要）：
+
+1. GitHub 右上角頭像 → Settings → Developer settings → Personal access tokens → **Fine-grained tokens** → Generate new token。
+2. Repository access 選 **Only select repositories**，只勾此 repo；Permissions → Repository permissions → **Contents: Read and write**；Expiration 依需求（到期後重做此流程）。
+3. 複製 token，到此 repo `Settings → Secrets and variables → Actions → New repository secret`，名稱 `EDITOR_GITHUB_TOKEN`，值貼上 token。
+4. 手動跑一次 deploy（Actions → Deploy to GitHub Pages → Run workflow），之後編輯頁的「儲存到網站」即可用。
+
+未設定 secret 時，編輯頁仍可拖曳，但只能「匯出 markers.json」交由管理者放進 `public/data/` 後 commit。
+
+安全取捨：token 在 build 時嵌進編輯頁的 JS，任何拿到網址的人（或檢視原始碼者）都能用它寫入此 repo 的檔案。token 僅限此 repo 的 Contents 權限，且點位座標非機密，可接受；若 token 外洩或專員異動，到 GitHub 撤銷該 token 並重新產生即可。需要真正的權限控管時，見下一節的升級路徑。
 
 ## 管理者模式的定位與升級路徑
 
@@ -112,4 +135,4 @@ npm run typecheck   # 型別檢查
 
 ## 隱私
 
-兩份試算表目前對外公開可讀，任何有連結者可匯出全部資料（含調查人員姓名）。若需保密，將試算表改為私有並啟用 Service Account（`sheetsApi`）。
+試算表目前對外公開可讀，任何有連結者可匯出全部資料（含調查人員姓名）。若需保密，將試算表改為私有並啟用 Service Account（`sheetsApi`）。

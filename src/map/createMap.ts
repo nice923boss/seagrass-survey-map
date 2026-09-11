@@ -43,9 +43,18 @@ export function createMap(containerId: string, markersData: MarkersJson): MapCon
   map.fitBounds(bounds)
   map.setMaxBounds(bounds)
 
-  // 容器尺寸變動（視窗縮放、旋轉）時重繪，標記與底圖相對位置保持不變
+  // 容器尺寸變動（視窗縮放、旋轉）時重繪，標記與底圖相對位置保持不變。
+  // 若建立當下容器尚無尺寸（隱藏分頁、尚未排版），fitBounds 會算錯縮放，
+  // 故在容器第一次有尺寸時再 fit 一次。
   const container = map.getContainer()
-  const ro = new ResizeObserver(() => map.invalidateSize({ animate: false }))
+  let fitted = container.clientWidth > 0 && container.clientHeight > 0
+  const ro = new ResizeObserver(() => {
+    map.invalidateSize({ animate: false })
+    if (!fitted && container.clientWidth > 0 && container.clientHeight > 0) {
+      fitted = true
+      map.fitBounds(bounds)
+    }
+  })
   ro.observe(container)
   map.on('unload', () => ro.disconnect())
 
