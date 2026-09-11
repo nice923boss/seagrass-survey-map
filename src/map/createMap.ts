@@ -28,7 +28,7 @@ export function createMap(containerId: string, markersData: MarkersJson): MapCon
 
   const map = L.map(containerId, {
     crs: L.CRS.Simple,
-    minZoom: -4,
+    minZoom: -4, // 建立後改為動態的「鋪滿」縮放，見 fitCover
     maxZoom: 4,
     zoomSnap: 0.1,
     zoomControl: true,
@@ -40,19 +40,37 @@ export function createMap(containerId: string, markersData: MarkersJson): MapCon
   const raw = basemap.src
   const imgUrl = /^(https?:|data:|blob:|\/)/.test(raw) ? raw : import.meta.env.BASE_URL + raw
   L.imageOverlay(imgUrl, bounds).addTo(map)
-  map.fitBounds(bounds)
   map.setMaxBounds(bounds)
 
-  // 容器尺寸變動（視窗縮放、旋轉）時重繪，標記與底圖相對位置保持不變。
-  // 若建立當下容器尚無尺寸（隱藏分頁、尚未排版），fitBounds 會算錯縮放，
-  // 故在容器第一次有尺寸時再 fit 一次。
   const container = map.getContainer()
-  let fitted = container.clientWidth > 0 && container.clientHeight > 0
+  const hasSize = () => container.clientWidth > 0 && container.clientHeight > 0
+
+  // 最小縮放 = 底圖剛好鋪滿容器（寬、高取需求較大者），縮到底也不會露出底圖旁的空白。
+  // CRS.Simple 在縮放 z 時 1 個底圖像素 = 2^z 個螢幕像素。
+  const coverZoom = () =>
+    Math.max(
+      Math.log2(container.clientWidth / width),
+      Math.log2(container.clientHeight / height),
+    )
+  const fitCover = () => {
+    const z = coverZoom()
+    map.setMinZoom(z)
+    map.setView([height / 2, width / 2], z, { animate: false })
+  }
+
+  let fitted = hasSize()
+  if (fitted) fitCover()
+
+  // 容器尺寸變動（視窗縮放、旋轉）時重繪並更新最小縮放（低於新下限時 Leaflet 會自動拉回）。
+  // 若建立當下容器尚無尺寸（隱藏分頁、尚未排版），在容器第一次有尺寸時再 fit 一次。
   const ro = new ResizeObserver(() => {
     map.invalidateSize({ animate: false })
-    if (!fitted && container.clientWidth > 0 && container.clientHeight > 0) {
+    if (!hasSize()) return
+    if (!fitted) {
       fitted = true
-      map.fitBounds(bounds)
+      fitCover()
+    } else {
+      map.setMinZoom(coverZoom())
     }
   })
   ro.observe(container)
