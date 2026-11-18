@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T01:38:11.262Z",
+  "generatedAt": "2026-11-18T00:36:22.344Z",
   "source": "csvPublic",
   "points": [
     {
@@ -9,8 +9,8 @@
         {
           "date": "2026-10-24",
           "submittedAt": "2026-10-24T09:55:40+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 江明謀, 劉中慧, 黃惠慶",
-          "recorder": "貞儀",
+          "surveyor": "KSH, LHS, WCY, CMM, LCH, HHC",
+          "recorder": "WCY",
           "sections": [
             {
               "title": "基本資訊",
@@ -337,11 +337,6 @@
                   "fileId": "1vYTiggCgi8MPu3KBRdOgXUurii_dO58F",
                   "thumb": "assets/photos/1vYTiggCgi8MPu3KBRdOgXUurii_dO58F.webp",
                   "full": "assets/photos/1vYTiggCgi8MPu3KBRdOgXUurii_dO58F.webp"
-                },
-                {
-                  "fileId": "1QVdDa3IJc666OOvzYzkXnaFQqYQb6nqi",
-                  "thumb": "assets/photos/1QVdDa3IJc666OOvzYzkXnaFQqYQb6nqi.webp",
-                  "full": "assets/photos/1QVdDa3IJc666OOvzYzkXnaFQqYQb6nqi.webp"
                 }
               ]
             },
@@ -370,8 +365,8 @@
         {
           "date": "2026-09-19",
           "submittedAt": "2026-09-19T10:41:57+08:00",
-          "surveyor": "曾明堂, 蔡文勝, 楊中亞, 吳昕妘, 劉峻儒",
-          "recorder": "飛魚",
+          "surveyor": "TMT, TWS, YCY, WHY, LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -712,8 +707,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T09:38:19+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶",
-          "recorder": "吳貞儀",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC",
+          "recorder": "WCY",
           "sections": [
             {
               "title": "基本資訊",
@@ -1028,8 +1023,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T09:38:09+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶",
-          "recorder": "王昶欣",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC",
+          "recorder": "WCH",
           "sections": [
             {
               "title": "基本資訊",
@@ -1360,8 +1355,8 @@
         {
           "date": "2026-07-18",
           "submittedAt": "2026-07-18T15:56:23+08:00",
-          "surveyor": "曾明堂, 賴香文, 蔡文勝, 楊中亞, 程俊南, 小幫手",
-          "recorder": "蔡文勝",
+          "surveyor": "TMT, LHW, TWS, YCY, CCN",
+          "recorder": "TWS",
           "sections": [
             {
               "title": "基本資訊",
@@ -1687,8 +1682,8 @@
         {
           "date": "2026-06-28",
           "submittedAt": "2026-06-28T16:36:20+08:00",
-          "surveyor": "曾明堂, 郭三賢, 吳貞儀, 王永欽, 陳瑩瑄, 王瑞君",
-          "recorder": "陳瑩瑄",
+          "surveyor": "TMT, KSH, WCY, WYC, CYH, WJC",
+          "recorder": "CYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -2020,8 +2015,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T17:00:55+08:00",
-          "surveyor": "郭三賢, 林煌松",
-          "recorder": "郭三賢",
+          "surveyor": "KSH, LHS",
+          "recorder": "KSH",
           "sections": [
             {
               "title": "基本資訊",
@@ -2338,8 +2333,8 @@
         {
           "date": "2026-04-11",
           "submittedAt": "2026-04-11T16:03:13+08:00",
-          "surveyor": "曾明堂, 郭三賢, 林煌松, 陳瑩瑄, 王瑞君, 陳齊奐, 李月香, 劉峻儒, 黃惠慶",
-          "recorder": "陳瑩瑄, 黃惠慶",
+          "surveyor": "TMT, KSH, LHS, CYH, WJC, CQH, LYH, LCZ, HHC",
+          "recorder": "CYH, HHC",
           "sections": [
             {
               "title": "基本資訊",
@@ -2644,8 +2639,8 @@
         {
           "date": "2026-04-11",
           "submittedAt": "2026-04-11T16:00:21+08:00",
-          "surveyor": "曾明堂, 郭三賢, 江明謀, 劉峻儒",
-          "recorder": "齊奐",
+          "surveyor": "TMT, KSH, CMM, LCZ",
+          "recorder": "CQH",
           "sections": [
             {
               "title": "基本資訊",
@@ -2961,8 +2956,8 @@
         {
           "date": "2026-10-24",
           "submittedAt": "2026-10-24T10:34:40+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 江明謀, 劉中慧, 黃惠慶, 李月香, 劉峻儒",
-          "recorder": "李月香",
+          "surveyor": "KSH, LHS, WCY, CMM, LCH, HHC, LYH, LCZ",
+          "recorder": "LYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -3306,8 +3301,8 @@
         {
           "date": "2026-09-19",
           "submittedAt": "2026-09-19T10:58:33+08:00",
-          "surveyor": "曾明堂, 蔡文勝, 楊中亞, 吳昕妘, 劉峻儒",
-          "recorder": "飛魚",
+          "surveyor": "TMT, TWS, YCY, WHY, LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -3626,8 +3621,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T10:19:14+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶, 李月香, 宋雅涵",
-          "recorder": "吳貞儀",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC, LYH, SYH",
+          "recorder": "WCY",
           "sections": [
             {
               "title": "基本資訊",
@@ -3947,8 +3942,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T10:18:04+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶, 李月香, 宋雅涵",
-          "recorder": "王昶欣",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC, LYH, SYH",
+          "recorder": "WCH",
           "sections": [
             {
               "title": "基本資訊",
@@ -4264,8 +4259,8 @@
         {
           "date": "2026-07-18",
           "submittedAt": "2026-07-18T16:15:38+08:00",
-          "surveyor": "曾明堂, 賴香文, 蔡文勝, 楊中亞, 程俊南",
-          "recorder": "蔡文勝",
+          "surveyor": "TMT, LHW, TWS, YCY, CCN",
+          "recorder": "TWS",
           "sections": [
             {
               "title": "基本資訊",
@@ -4576,8 +4571,8 @@
         {
           "date": "2026-06-28",
           "submittedAt": "2026-06-28T16:12:42+08:00",
-          "surveyor": "郭三賢, 林煌松, 江明謀, 陳寶樹, 王昶欣, 黃惠慶, 宋雅涵",
-          "recorder": "王昶欣",
+          "surveyor": "KSH, LHS, CMM, CPS, WCH, HHC, SYH",
+          "recorder": "WCH",
           "sections": [
             {
               "title": "基本資訊",
@@ -4895,8 +4890,8 @@
         {
           "date": "2026-06-28",
           "submittedAt": "2026-06-28T16:12:26+08:00",
-          "surveyor": "郭三賢, 林煌松, 江明謀, 陳寶樹, 王昶欣, 黃惠慶, 宋雅涵",
-          "recorder": "宋雅涵",
+          "surveyor": "KSH, LHS, CMM, CPS, WCH, HHC, SYH",
+          "recorder": "SYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -5207,8 +5202,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T16:01:10+08:00",
-          "surveyor": "劉峻儒",
-          "recorder": "李月香",
+          "surveyor": "LCZ",
+          "recorder": "LYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -5521,8 +5516,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T15:58:17+08:00",
-          "surveyor": "曾明堂, 郭三賢, 林煌松, 吳貞儀",
-          "recorder": "qh",
+          "surveyor": "TMT, KSH, LHS, WCY",
+          "recorder": "CQH",
           "sections": [
             {
               "title": "基本資訊",
@@ -5826,8 +5821,8 @@
         {
           "date": "2026-04-11",
           "submittedAt": "2026-04-11T16:22:19+08:00",
-          "surveyor": "曾明堂, 郭三賢, 林煌松, 吳貞儀, 賴香文, 江明謀, 王永欽, 黃憶珊, 陳瑩瑄, 王瑞君, 陳齊奐, 劉峻儒",
-          "recorder": "陳瑩瑄",
+          "surveyor": "TMT, KSH, LHS, WCY, LHW, CMM, WYC, HYS,CYH, WJC,CQH, LCZ",
+          "recorder": "CYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -6132,8 +6127,8 @@
         {
           "date": "2026-04-11",
           "submittedAt": "2026-04-11T16:22:16+08:00",
-          "surveyor": "曾明堂, 郭三賢, 劉峻儒",
-          "recorder": "齊奐",
+          "surveyor": "TMT, KSH, LCZ",
+          "recorder": "CQH",
           "sections": [
             {
               "title": "基本資訊",
@@ -6430,8 +6425,8 @@
         {
           "date": "2026-10-24",
           "submittedAt": "2026-10-24T11:13:27+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 江明謀, 劉中慧, 黃惠慶, 李月香",
-          "recorder": "李月香",
+          "surveyor": "KSH, LHS, WCY, CMM, LCH, HHC, LYH",
+          "recorder": "LYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -6780,8 +6775,8 @@
         {
           "date": "2026-09-19",
           "submittedAt": "2026-09-19T11:23:11+08:00",
-          "surveyor": "曾明堂, 蔡文勝, 楊中亞, 吳昕妘, 劉峻儒",
-          "recorder": "飛魚",
+          "surveyor": "TMT, TWS, YCY, WHY, LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -7116,8 +7111,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T10:35:12+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶, 李月香, 宋雅涵",
-          "recorder": "王昶欣",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC, LYH, SYH",
+          "recorder": "WCH",
           "sections": [
             {
               "title": "基本資訊",
@@ -7429,8 +7424,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T10:34:44+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶, 李月香, 宋雅涵",
-          "recorder": "吳貞儀",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC, LYH, SYH",
+          "recorder": "WCY",
           "sections": [
             {
               "title": "基本資訊",
@@ -7730,8 +7725,8 @@
         {
           "date": "2026-07-18",
           "submittedAt": "2026-07-18T16:32:52+08:00",
-          "surveyor": "曾明堂, 賴香文, 蔡文勝, 楊中亞, 程俊南",
-          "recorder": "蔡文勝",
+          "surveyor": "TMT, LHW, TWS, YCY, CCN",
+          "recorder": "TWS",
           "sections": [
             {
               "title": "基本資訊",
@@ -8058,8 +8053,8 @@
         {
           "date": "2026-06-28",
           "submittedAt": "2026-06-28T16:33:12+08:00",
-          "surveyor": "郭三賢, 林煌松, 江明謀, 陳寶樹, 王昶欣, 黃惠慶, 宋雅涵",
-          "recorder": "王昶欣",
+          "surveyor": "KSH, LHS, CMM, CPS, WCH, HHC, SYH",
+          "recorder": "WCH",
           "sections": [
             {
               "title": "基本資訊",
@@ -8381,8 +8376,8 @@
         {
           "date": "2026-06-28",
           "submittedAt": "2026-06-28T16:32:40+08:00",
-          "surveyor": "郭三賢, 林煌松, 江明謀, 陳寶樹, 王昶欣, 黃惠慶, 宋雅涵",
-          "recorder": "宋雅涵",
+          "surveyor": "KSH, LHS, CMM, CPS, WCH, HHC, SYH",
+          "recorder": "SYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -8689,8 +8684,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T16:32:19+08:00",
-          "surveyor": "郭三賢, 林煌松",
-          "recorder": "李月香",
+          "surveyor": "KSH, LHS",
+          "recorder": "LYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -9037,8 +9032,8 @@
         {
           "date": "2026-04-11",
           "submittedAt": "2026-04-11T16:37:22+08:00",
-          "surveyor": "曾明堂, 郭三賢, 林煌松, 吳貞儀, 陳瑩瑄, 王瑞君, 陳齊奐, 劉峻儒",
-          "recorder": "陳瑩瑄",
+          "surveyor": "TMT, KSH, LHS, WCY,CYH, WJC, CQH, LCZ",
+          "recorder": "CYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -9325,8 +9320,8 @@
         {
           "date": "2026-04-11",
           "submittedAt": "2026-04-11T16:37:05+08:00",
-          "surveyor": "曾明堂, 郭三賢",
-          "recorder": "qh",
+          "surveyor": "TMT, KSH",
+          "recorder": "CQH",
           "sections": [
             {
               "title": "基本資訊",
@@ -9589,8 +9584,8 @@
         {
           "date": "2026-10-24",
           "submittedAt": "2026-10-24T13:09:52+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 江明謀, 劉中慧, 黃惠慶, 李月香",
-          "recorder": "李月香",
+          "surveyor": "KSH, LHS, WCY, CMM, LCH, HHC, LYH",
+          "recorder": "LYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -9939,8 +9934,8 @@
         {
           "date": "2026-09-19",
           "submittedAt": "2026-09-19T11:36:31+08:00",
-          "surveyor": "曾明堂, 蔡文勝, 楊中亞, 吳昕妘, 劉峻儒",
-          "recorder": "飛魚",
+          "surveyor": "TMT, TWS, YCY, WHY, LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -10254,8 +10249,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T10:54:16+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶, 李月香, 宋雅涵",
-          "recorder": "吳貞儀",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC, LYH, SYH",
+          "recorder": "WCY",
           "sections": [
             {
               "title": "基本資訊",
@@ -10540,8 +10535,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T10:54:04+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶, 李月香, 宋雅涵",
-          "recorder": "王昶欣",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC, LYH, SYH",
+          "recorder": "WCH",
           "sections": [
             {
               "title": "基本資訊",
@@ -10841,8 +10836,8 @@
         {
           "date": "2026-07-18",
           "submittedAt": "2026-07-18T16:51:57+08:00",
-          "surveyor": "曾明堂, 賴香文, 蔡文勝, 楊中亞",
-          "recorder": "蔡文勝",
+          "surveyor": "TMT, LHW, TWS, YCY",
+          "recorder": "TWS",
           "sections": [
             {
               "title": "基本資訊",
@@ -11164,8 +11159,8 @@
         {
           "date": "2026-06-28",
           "submittedAt": "2026-06-28T16:54:26+08:00",
-          "surveyor": "郭三賢, 林煌松, 江明謀, 陳寶樹, 王昶欣, 黃惠慶, 宋雅涵",
-          "recorder": "王昶欣",
+          "surveyor": "KSH, LHS, CMM, CPS, WCH, HHC, SYH",
+          "recorder": "WCH",
           "sections": [
             {
               "title": "基本資訊",
@@ -11473,8 +11468,8 @@
         {
           "date": "2026-06-28",
           "submittedAt": "2026-06-28T16:53:57+08:00",
-          "surveyor": "郭三賢, 林煌松, 江明謀, 陳寶樹, 王昶欣, 黃惠慶, 宋雅涵",
-          "recorder": "宋雅涵",
+          "surveyor": "KSH, LHS, CMM, CPS, WCH, HHC, SYH",
+          "recorder": "SYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -11776,8 +11771,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T16:23:33+08:00",
-          "surveyor": "曾明堂, 郭三賢, 林煌松",
-          "recorder": "qh",
+          "surveyor": "TMT, KSH, LHS",
+          "recorder": "CQH",
           "sections": [
             {
               "title": "基本資訊",
@@ -12109,8 +12104,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T16:23:10+08:00",
-          "surveyor": "曾明堂, 郭三賢, 林煌松, 賴香文, 吳昕妘, 陳瑩瑄, 王瑞君",
-          "recorder": "陳瑩瑄",
+          "surveyor": "TMT, KSH, LHS, LHW, WHY, CYH, WJC",
+          "recorder": "CYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -12453,8 +12448,8 @@
         {
           "date": "2026-04-11",
           "submittedAt": "2026-04-11T17:00:55+08:00",
-          "surveyor": "曾明堂, 郭三賢, 林煌松, 吳貞儀, 賴香文, 陳瑩瑄, 王瑞君, 陳齊奐, 劉峻儒",
-          "recorder": "陳瑩瑄、qh",
+          "surveyor": "TMT, KSH, LHS, WCY, LHW, CYH, WJC, CQH, LCZ",
+          "recorder": "CYH、CQH",
           "sections": [
             {
               "title": "基本資訊",
@@ -12800,8 +12795,8 @@
         {
           "date": "2026-10-24",
           "submittedAt": "2026-10-24T12:30:04+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 江明謀, 劉中慧, 黃惠慶",
-          "recorder": "貞儀",
+          "surveyor": "KSH, LHS, WCY, CMM, LCH, HHC, LYH",
+          "recorder": "WCY",
           "sections": [
             {
               "title": "基本資訊",
@@ -13130,8 +13125,8 @@
         {
           "date": "2026-09-19",
           "submittedAt": "2026-09-19T11:52:55+08:00",
-          "surveyor": "曾明堂, 蔡文勝, 楊中亞, 吳昕妘, 劉峻儒",
-          "recorder": "飛魚",
+          "surveyor": "TMT, TWS, YCY, WHY, LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -13476,8 +13471,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T11:07:31+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶, 李月香, 宋雅涵",
-          "recorder": "吳貞儀",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC, LYH, SYH",
+          "recorder": "WCY",
           "sections": [
             {
               "title": "基本資訊",
@@ -13776,8 +13771,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T11:06:42+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 王昶欣, 黃惠慶, 李月香, 宋雅涵",
-          "recorder": "王昶欣",
+          "surveyor": "KSH, LHS, WCY, WCH, HHC, LYH, SYH",
+          "recorder": "WCH",
           "sections": [
             {
               "title": "基本資訊",
@@ -14078,8 +14073,8 @@
         {
           "date": "2026-07-18",
           "submittedAt": "2026-07-18T17:08:11+08:00",
-          "surveyor": "曾明堂, 賴香文, 蔡文勝, 楊中亞",
-          "recorder": "蔡文勝",
+          "surveyor": "TMT, LHW, TWS, YCY",
+          "recorder": "TWS",
           "sections": [
             {
               "title": "基本資訊",
@@ -14405,8 +14400,8 @@
         {
           "date": "2026-06-28",
           "submittedAt": "2026-06-28T17:07:58+08:00",
-          "surveyor": "郭三賢, 林煌松, 江明謀, 陳寶樹, 王昶欣, 黃惠慶, 宋雅涵",
-          "recorder": "王昶欣",
+          "surveyor": "KSH, LHS, CMM, CPS, WCH, HHC, SYH",
+          "recorder": "WCH",
           "sections": [
             {
               "title": "基本資訊",
@@ -14719,8 +14714,8 @@
         {
           "date": "2026-06-28",
           "submittedAt": "2026-06-28T17:07:28+08:00",
-          "surveyor": "郭三賢, 林煌松, 江明謀, 陳寶樹, 王昶欣, 黃惠慶, 宋雅涵",
-          "recorder": "宋雅涵",
+          "surveyor": "KSH, LHS, CMM, CPS, WCH, HHC, SYH",
+          "recorder": "SYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -15018,8 +15013,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T16:53:54+08:00",
-          "surveyor": "曾明堂, 郭三賢, 林煌松",
-          "recorder": "qh",
+          "surveyor": "TMT, KSH, LHS",
+          "recorder": "CQH",
           "sections": [
             {
               "title": "基本資訊",
@@ -15366,8 +15361,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T16:53:11+08:00",
-          "surveyor": "曾明堂, 郭三賢, 黃憶珊, 陳瑩瑄, 王瑞君, 陳齊奐",
-          "recorder": "陳瑩瑄",
+          "surveyor": "TMT, KSH, HYS, CYH, WJC, CQH",
+          "recorder": "CYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -15724,8 +15719,8 @@
         {
           "date": "2026-04-11",
           "submittedAt": "2026-04-11T17:12:40+08:00",
-          "surveyor": "郭三賢, 林煌松, 吳貞儀, 江明謀, 陳瑩瑄, 王瑞君, 陳齊奐, 劉峻儒",
-          "recorder": "陳瑩瑄、齊奐",
+          "surveyor": "KSH, LHS, WCY, CMM, CYH, WJC, CQH, LCZ",
+          "recorder": "CYH、CQH",
           "sections": [
             {
               "title": "基本資訊",
@@ -16033,8 +16028,8 @@
         {
           "date": "2026-10-24",
           "submittedAt": "2026-10-24T15:30:10+08:00",
-          "surveyor": "曾明堂, 楊中亞, 程俊南",
-          "recorder": "曾明堂",
+          "surveyor": "TMT, YCY, CCN",
+          "recorder": "TMT",
           "sections": [
             {
               "title": "基本資訊",
@@ -16279,8 +16274,8 @@
         {
           "date": "2026-09-26",
           "submittedAt": "2026-09-28T11:37:28+08:00",
-          "surveyor": "江明謀, 黃惠慶",
-          "recorder": "江明謀、黃惠慶",
+          "surveyor": "CMM, HHC",
+          "recorder": "CMM, HHC",
           "sections": [
             {
               "title": "基本資訊",
@@ -16511,8 +16506,8 @@
         {
           "date": "2026-08-09",
           "submittedAt": "2026-08-09T13:58:58+08:00",
-          "surveyor": "曾明堂, 賴香文, 王永欽, 黃憶珊, 楊中亞, 楊愉粧",
-          "recorder": "黃憶珊",
+          "surveyor": "TMT, LHW, WYC, HYS, YCY, YYC",
+          "recorder": "HYS",
           "sections": [
             {
               "title": "基本資訊",
@@ -16768,8 +16763,8 @@
         {
           "date": "2026-07-21",
           "submittedAt": "2026-07-21T10:49:12+08:00",
-          "surveyor": "郭三賢, 黃惠慶",
-          "recorder": "黄惠慶",
+          "surveyor": "KSH, HHC",
+          "recorder": "HHC",
           "sections": [
             {
               "title": "基本資訊",
@@ -17024,8 +17019,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T14:09:25+08:00",
-          "surveyor": "郭三賢, 黃惠慶",
-          "recorder": "李月香",
+          "surveyor": "KSH, HHC",
+          "recorder": "LYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -17300,8 +17295,8 @@
         {
           "date": "2026-10-24",
           "submittedAt": "2026-10-24T15:56:35+08:00",
-          "surveyor": "曾明堂, 楊中亞, 程俊南",
-          "recorder": "曾明堂",
+          "surveyor": "TMT, YCY, CCN",
+          "recorder": "TMT",
           "sections": [
             {
               "title": "基本資訊",
@@ -17551,8 +17546,8 @@
         {
           "date": "2026-09-26",
           "submittedAt": "2026-09-28T11:58:06+08:00",
-          "surveyor": "江明謀, 黃惠慶",
-          "recorder": "江明謀、黃惠慶",
+          "surveyor": "CMM, HHC",
+          "recorder": "CMM, HHC",
           "sections": [
             {
               "title": "基本資訊",
@@ -17798,8 +17793,8 @@
         {
           "date": "2026-08-09",
           "submittedAt": "2026-08-09T14:22:45+08:00",
-          "surveyor": "曾明堂, 賴香文, 王永欽, 黃憶珊, 楊中亞, 楊愉粧",
-          "recorder": "黃憶珊",
+          "surveyor": "TMT, LHW, WYC, HYS, YCY, YYC",
+          "recorder": "HYS",
           "sections": [
             {
               "title": "基本資訊",
@@ -18046,8 +18041,8 @@
         {
           "date": "2026-07-21",
           "submittedAt": "2026-07-21T09:51:54+08:00",
-          "surveyor": "郭三賢, 黃惠慶",
-          "recorder": "黄惠慶、郭三賢",
+          "surveyor": "KSH, HHC",
+          "recorder": "HHC、KSH",
           "sections": [
             {
               "title": "基本資訊",
@@ -18307,8 +18302,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T13:42:47+08:00",
-          "surveyor": "郭三賢, 黃惠慶",
-          "recorder": "李月香",
+          "surveyor": "KSH, HHC",
+          "recorder": "LYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -18566,10 +18561,281 @@
       "name": "點位8",
       "surveys": [
         {
+          "date": "2026-11-16",
+          "submittedAt": "2026-11-16T12:22:18+08:00",
+          "surveyor": "郭三賢, 陳寶樹, 劉中慧",
+          "recorder": "陳寶樹",
+          "sections": [
+            {
+              "title": "基本資訊",
+              "fields": [
+                {
+                  "label": "天候狀況",
+                  "value": "晴"
+                },
+                {
+                  "label": "潮汐",
+                  "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
+                },
+                {
+                  "label": "點位調查時間",
+                  "value": "上午 11:40:00"
+                }
+              ]
+            },
+            {
+              "title": "Ａ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "100%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "0%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "90%, 普通"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "10%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "0%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%"
+                }
+              ]
+            },
+            {
+              "title": "Ｂ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "100%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "0%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "100%, 普通"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "0%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "0%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%"
+                }
+              ]
+            },
+            {
+              "title": "Ｃ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "90%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "10%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "90%, 普通"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "0%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "10%, 普通"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%"
+                }
+              ]
+            },
+            {
+              "title": "整體觀察",
+              "fields": [
+                {
+                  "label": "本點位的整體觀察",
+                  "value": "無"
+                }
+              ]
+            },
+            {
+              "title": "水質",
+              "fields": [
+                {
+                  "label": "1.水溫",
+                  "value": "27"
+                },
+                {
+                  "label": "2.鹽度",
+                  "value": "33"
+                },
+                {
+                  "label": "3.pH",
+                  "value": "7.8 - 8.4"
+                },
+                {
+                  "label": "4.亞硝酸鹽（NO₂⁻）",
+                  "value": "0 - 1"
+                },
+                {
+                  "label": "5.硝酸鹽（NO₃⁻）",
+                  "value": "0 - 10"
+                },
+                {
+                  "label": "6.氨氮（NH4/NH₃）",
+                  "value": "0 - 0.5"
+                },
+                {
+                  "label": "水質狀況說明（異常、異味、顏色、漂浮物等）",
+                  "value": "佳，清澈見底"
+                }
+              ]
+            },
+            {
+              "title": "植株與物候",
+              "fields": [
+                {
+                  "label": "株數 - 卵葉鹽草",
+                  "value": "230"
+                },
+                {
+                  "label": "株數 - 線葉二藥草",
+                  "value": "0"
+                },
+                {
+                  "label": "卵葉 - 葉長 (庇護高度 cm)",
+                  "value": "5.1"
+                },
+                {
+                  "label": "線葉 - 葉長 (庇護高度 cm)",
+                  "value": "0"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "疑似胎生苗"
+                }
+              ]
+            }
+          ],
+          "photoGroups": [
+            {
+              "label": "Ａ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1IBl8xVOSyzgD9yI4XjKe7jMZVJ8KWwP2",
+                  "thumb": "assets/photos/1IBl8xVOSyzgD9yI4XjKe7jMZVJ8KWwP2.webp",
+                  "full": "assets/photos/1IBl8xVOSyzgD9yI4XjKe7jMZVJ8KWwP2.webp"
+                },
+                {
+                  "fileId": "1Ga4lEWdC-pu7ySXEYNQRKx0LJM4J5m8Z",
+                  "thumb": "assets/photos/1Ga4lEWdC-pu7ySXEYNQRKx0LJM4J5m8Z.webp",
+                  "full": "assets/photos/1Ga4lEWdC-pu7ySXEYNQRKx0LJM4J5m8Z.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｂ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1lNOvUOsmVhNHZDb6srJ9yCFFQ-ziKCvr",
+                  "thumb": "assets/photos/1lNOvUOsmVhNHZDb6srJ9yCFFQ-ziKCvr.webp",
+                  "full": "assets/photos/1lNOvUOsmVhNHZDb6srJ9yCFFQ-ziKCvr.webp"
+                },
+                {
+                  "fileId": "1uR8OHcCJb89YrJVhaycQpn20mTnaDb9a",
+                  "thumb": "assets/photos/1uR8OHcCJb89YrJVhaycQpn20mTnaDb9a.webp",
+                  "full": "assets/photos/1uR8OHcCJb89YrJVhaycQpn20mTnaDb9a.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｃ樣框照片",
+              "photos": [
+                {
+                  "fileId": "18_8nRWWz7nN93draxDQiYQn2Ig-CyMii",
+                  "thumb": "assets/photos/18_8nRWWz7nN93draxDQiYQn2Ig-CyMii.webp",
+                  "full": "assets/photos/18_8nRWWz7nN93draxDQiYQn2Ig-CyMii.webp"
+                },
+                {
+                  "fileId": "1H9hZ1FgIvv3MEIQSaM7AtppIUrXd_4Yw",
+                  "thumb": "assets/photos/1H9hZ1FgIvv3MEIQSaM7AtppIUrXd_4Yw.webp",
+                  "full": "assets/photos/1H9hZ1FgIvv3MEIQSaM7AtppIUrXd_4Yw.webp"
+                }
+              ]
+            },
+            {
+              "label": "水質照片",
+              "photos": [
+                {
+                  "fileId": "1CM7g-kjBhVN1xEFDNau9wgTe7C3uVbc2",
+                  "thumb": "assets/photos/1CM7g-kjBhVN1xEFDNau9wgTe7C3uVbc2.webp",
+                  "full": "assets/photos/1CM7g-kjBhVN1xEFDNau9wgTe7C3uVbc2.webp"
+                },
+                {
+                  "fileId": "1xnm7_alZ4JLLim9bXSOrhyXQsq7M46mM",
+                  "thumb": "assets/photos/1xnm7_alZ4JLLim9bXSOrhyXQsq7M46mM.webp",
+                  "full": "assets/photos/1xnm7_alZ4JLLim9bXSOrhyXQsq7M46mM.webp"
+                }
+              ]
+            },
+            {
+              "label": "樣本照片",
+              "photos": [
+                {
+                  "fileId": "17jDd8FtUNtrRkvOkCAUlod-EV2TxcmUH",
+                  "thumb": "assets/photos/17jDd8FtUNtrRkvOkCAUlod-EV2TxcmUH.webp",
+                  "full": "assets/photos/17jDd8FtUNtrRkvOkCAUlod-EV2TxcmUH.webp"
+                },
+                {
+                  "fileId": "1r3PrdatNWKiOvnkzskD-pF6-2C3XN72L",
+                  "thumb": "assets/photos/1r3PrdatNWKiOvnkzskD-pF6-2C3XN72L.webp",
+                  "full": "assets/photos/1r3PrdatNWKiOvnkzskD-pF6-2C3XN72L.webp"
+                },
+                {
+                  "fileId": "1ILqELI4eHvUFJFi3vyq06qzs-cmI3lQP",
+                  "thumb": "assets/photos/1ILqELI4eHvUFJFi3vyq06qzs-cmI3lQP.webp",
+                  "full": "assets/photos/1ILqELI4eHvUFJFi3vyq06qzs-cmI3lQP.webp"
+                },
+                {
+                  "fileId": "136NZMTjbtSF-ri1Imatfr6YqXps10Uo0",
+                  "thumb": "assets/photos/136NZMTjbtSF-ri1Imatfr6YqXps10Uo0.webp",
+                  "full": "assets/photos/136NZMTjbtSF-ri1Imatfr6YqXps10Uo0.webp"
+                },
+                {
+                  "fileId": "12SZ7Bd8h9ELuHx0oKehDHAzQVVqqs_Hb",
+                  "thumb": "assets/photos/12SZ7Bd8h9ELuHx0oKehDHAzQVVqqs_Hb.webp",
+                  "full": "assets/photos/12SZ7Bd8h9ELuHx0oKehDHAzQVVqqs_Hb.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "date": "2026-10-24",
           "submittedAt": "2026-10-24T16:17:59+08:00",
-          "surveyor": "曾明堂, 楊中亞, 程俊南",
-          "recorder": "曾明堂",
+          "surveyor": "TMT, YCY, CCN",
+          "recorder": "TMT",
           "sections": [
             {
               "title": "基本資訊",
@@ -18801,27 +19067,12 @@
                   "fileId": "141UeHH5MwySDgiB1ud8sltXTRcNss3dr",
                   "thumb": "assets/photos/141UeHH5MwySDgiB1ud8sltXTRcNss3dr.webp",
                   "full": "assets/photos/141UeHH5MwySDgiB1ud8sltXTRcNss3dr.webp"
-                },
-                {
-                  "fileId": "1_X44VY2mnC82LkD0PvknOqt0oMH58K7Z",
-                  "thumb": "assets/photos/1_X44VY2mnC82LkD0PvknOqt0oMH58K7Z.webp",
-                  "full": "assets/photos/1_X44VY2mnC82LkD0PvknOqt0oMH58K7Z.webp"
                 }
               ]
             },
             {
               "label": "樣本照片",
               "photos": [
-                {
-                  "fileId": "1_4W-cxmeR6sHx80nUnKvR22gxBY_QtbF",
-                  "thumb": "assets/photos/1_4W-cxmeR6sHx80nUnKvR22gxBY_QtbF.webp",
-                  "full": "assets/photos/1_4W-cxmeR6sHx80nUnKvR22gxBY_QtbF.webp"
-                },
-                {
-                  "fileId": "1JEL3lXrScsnhKFdxV82CGJtg5kGSxSXN",
-                  "thumb": "assets/photos/1JEL3lXrScsnhKFdxV82CGJtg5kGSxSXN.webp",
-                  "full": "assets/photos/1JEL3lXrScsnhKFdxV82CGJtg5kGSxSXN.webp"
-                },
                 {
                   "fileId": "12jXjQiQ_Zw5JOHf1jfKPrtOgV-lyNKhj",
                   "thumb": "assets/photos/12jXjQiQ_Zw5JOHf1jfKPrtOgV-lyNKhj.webp",
@@ -18834,8 +19085,8 @@
         {
           "date": "2026-09-06",
           "submittedAt": "2026-09-06T11:37:21+08:00",
-          "surveyor": "郭三賢, 陳寶樹, 劉中慧",
-          "recorder": "陳寶樹",
+          "surveyor": "KSH, CPS, LCH",
+          "recorder": "CPS",
           "sections": [
             {
               "title": "基本資訊",
@@ -19095,8 +19346,8 @@
         {
           "date": "2026-08-09",
           "submittedAt": "2026-08-09T14:47:02+08:00",
-          "surveyor": "曾明堂, 賴香文, 王永欽, 黃憶珊, 楊中亞, 楊愉粧",
-          "recorder": "黃憶珊",
+          "surveyor": "TMT, LHW, WYC, HYS, YCY, YYC",
+          "recorder": "HYS",
           "sections": [
             {
               "title": "基本資訊",
@@ -19347,8 +19598,8 @@
         {
           "date": "2026-07-21",
           "submittedAt": "2026-07-21T10:19:50+08:00",
-          "surveyor": "郭三賢, 黃惠慶",
-          "recorder": "黃惠慶",
+          "surveyor": "KSH, HHC",
+          "recorder": "HHC",
           "sections": [
             {
               "title": "基本資訊",
@@ -19608,8 +19859,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T13:57:31+08:00",
-          "surveyor": "郭三賢, 黃惠慶",
-          "recorder": "李月香",
+          "surveyor": "KSH, HHC",
+          "recorder": "LYH",
           "sections": [
             {
               "title": "基本資訊",
@@ -19882,10 +20133,281 @@
       "name": "點位9",
       "surveys": [
         {
+          "date": "2026-11-16",
+          "submittedAt": "2026-11-16T13:02:57+08:00",
+          "surveyor": "郭三賢, 陳寶樹, 劉中慧",
+          "recorder": "陳寶樹",
+          "sections": [
+            {
+              "title": "基本資訊",
+              "fields": [
+                {
+                  "label": "天候狀況",
+                  "value": "晴"
+                },
+                {
+                  "label": "潮汐",
+                  "value": "漲潮中 (乾潮後 1 小時 ~ 滿潮前)"
+                },
+                {
+                  "label": "點位調查時間",
+                  "value": "下午 12:40:00"
+                }
+              ]
+            },
+            {
+              "title": "Ａ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "90%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "10%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "50%, 普通"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "40%, 佳"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "10%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%"
+                }
+              ]
+            },
+            {
+              "title": "Ｂ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "100%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "0%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "90%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "10%, 普通"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "0%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%"
+                }
+              ]
+            },
+            {
+              "title": "Ｃ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "100%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "0%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "90%, 佳"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "10%, 普通"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "0%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%"
+                }
+              ]
+            },
+            {
+              "title": "整體觀察",
+              "fields": [
+                {
+                  "label": "本點位的整體觀察",
+                  "value": "無"
+                }
+              ]
+            },
+            {
+              "title": "水質",
+              "fields": [
+                {
+                  "label": "1.水溫",
+                  "value": "26"
+                },
+                {
+                  "label": "2.鹽度",
+                  "value": "35"
+                },
+                {
+                  "label": "3.pH",
+                  "value": "7.6 - 7.8"
+                },
+                {
+                  "label": "4.亞硝酸鹽（NO₂⁻）",
+                  "value": "0 - 1"
+                },
+                {
+                  "label": "5.硝酸鹽（NO₃⁻）",
+                  "value": "0 - 10"
+                },
+                {
+                  "label": "6.氨氮（NH4/NH₃）",
+                  "value": "0 - 0.5"
+                },
+                {
+                  "label": "水質狀況說明（異常、異味、顏色、漂浮物等）",
+                  "value": "佳、清澈見底"
+                }
+              ]
+            },
+            {
+              "title": "植株與物候",
+              "fields": [
+                {
+                  "label": "株數 - 卵葉鹽草",
+                  "value": "172"
+                },
+                {
+                  "label": "株數 - 線葉二藥草",
+                  "value": "9"
+                },
+                {
+                  "label": "卵葉 - 葉長 (庇護高度 cm)",
+                  "value": "5"
+                },
+                {
+                  "label": "線葉 - 葉長 (庇護高度 cm)",
+                  "value": "21"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "新芽生長"
+                }
+              ]
+            }
+          ],
+          "photoGroups": [
+            {
+              "label": "Ａ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1shkeoCD8wEyBO3Ujx2Gi-mrSIBp1dwuB",
+                  "thumb": "assets/photos/1shkeoCD8wEyBO3Ujx2Gi-mrSIBp1dwuB.webp",
+                  "full": "assets/photos/1shkeoCD8wEyBO3Ujx2Gi-mrSIBp1dwuB.webp"
+                },
+                {
+                  "fileId": "1l3OmCf8wZ9St8FWmsRSFznPaceiS0tWB",
+                  "thumb": "assets/photos/1l3OmCf8wZ9St8FWmsRSFznPaceiS0tWB.webp",
+                  "full": "assets/photos/1l3OmCf8wZ9St8FWmsRSFznPaceiS0tWB.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｂ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1PyFJD9mnNDj00MNkT3hQakCUXf0NIl0m",
+                  "thumb": "assets/photos/1PyFJD9mnNDj00MNkT3hQakCUXf0NIl0m.webp",
+                  "full": "assets/photos/1PyFJD9mnNDj00MNkT3hQakCUXf0NIl0m.webp"
+                },
+                {
+                  "fileId": "1k_-Ga1A1A9JBM4YAzh6M4nnS6JdUub8y",
+                  "thumb": "assets/photos/1k_-Ga1A1A9JBM4YAzh6M4nnS6JdUub8y.webp",
+                  "full": "assets/photos/1k_-Ga1A1A9JBM4YAzh6M4nnS6JdUub8y.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｃ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1Hld1c6H1055vnBGs_OoX2tEtE8Dm6Lek",
+                  "thumb": "assets/photos/1Hld1c6H1055vnBGs_OoX2tEtE8Dm6Lek.webp",
+                  "full": "assets/photos/1Hld1c6H1055vnBGs_OoX2tEtE8Dm6Lek.webp"
+                },
+                {
+                  "fileId": "1CYaX2V2qJdaKIah_zooSKZuh3l4gInDj",
+                  "thumb": "assets/photos/1CYaX2V2qJdaKIah_zooSKZuh3l4gInDj.webp",
+                  "full": "assets/photos/1CYaX2V2qJdaKIah_zooSKZuh3l4gInDj.webp"
+                }
+              ]
+            },
+            {
+              "label": "水質照片",
+              "photos": [
+                {
+                  "fileId": "14PcGwwOYp-cKQjT9928y6XygUrD28AXJ",
+                  "thumb": "assets/photos/14PcGwwOYp-cKQjT9928y6XygUrD28AXJ.webp",
+                  "full": "assets/photos/14PcGwwOYp-cKQjT9928y6XygUrD28AXJ.webp"
+                },
+                {
+                  "fileId": "1SM9oN1KIWte2ToIRDBMQH6JEmV_oyzSj",
+                  "thumb": "assets/photos/1SM9oN1KIWte2ToIRDBMQH6JEmV_oyzSj.webp",
+                  "full": "assets/photos/1SM9oN1KIWte2ToIRDBMQH6JEmV_oyzSj.webp"
+                }
+              ]
+            },
+            {
+              "label": "樣本照片",
+              "photos": [
+                {
+                  "fileId": "1qsMiC945jQK3snjmUz3zyphJWbSkK2rB",
+                  "thumb": "assets/photos/1qsMiC945jQK3snjmUz3zyphJWbSkK2rB.webp",
+                  "full": "assets/photos/1qsMiC945jQK3snjmUz3zyphJWbSkK2rB.webp"
+                },
+                {
+                  "fileId": "1JshL1yqIRVYdvZc49NIGMcdmDVa8GGJY",
+                  "thumb": "assets/photos/1JshL1yqIRVYdvZc49NIGMcdmDVa8GGJY.webp",
+                  "full": "assets/photos/1JshL1yqIRVYdvZc49NIGMcdmDVa8GGJY.webp"
+                },
+                {
+                  "fileId": "1niVt_IQVvCXpscnvaq4DqCMCKgTNwVbl",
+                  "thumb": "assets/photos/1niVt_IQVvCXpscnvaq4DqCMCKgTNwVbl.webp",
+                  "full": "assets/photos/1niVt_IQVvCXpscnvaq4DqCMCKgTNwVbl.webp"
+                },
+                {
+                  "fileId": "1bDfZnmaEdkGkTLCwQqTDWlZRMsFN3vhh",
+                  "thumb": "assets/photos/1bDfZnmaEdkGkTLCwQqTDWlZRMsFN3vhh.webp",
+                  "full": "assets/photos/1bDfZnmaEdkGkTLCwQqTDWlZRMsFN3vhh.webp"
+                },
+                {
+                  "fileId": "1QJKRNNrfJI-xy3GLB_FbZzq6MSTextKZ",
+                  "thumb": "assets/photos/1QJKRNNrfJI-xy3GLB_FbZzq6MSTextKZ.webp",
+                  "full": "assets/photos/1QJKRNNrfJI-xy3GLB_FbZzq6MSTextKZ.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "date": "2026-10-17",
           "submittedAt": "2026-10-17T12:12:07+08:00",
-          "surveyor": "曾明堂, 劉峻儒",
-          "recorder": "飛魚",
+          "surveyor": "TMT, LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -20074,11 +20596,6 @@
                   "full": "assets/photos/1vaY1Bp6MfPAonLEtoOfzaXp6cE3J0YBC.webp"
                 },
                 {
-                  "fileId": "1iTMkneikLnfBAkebSzf9bKAmFCskdz6_",
-                  "thumb": "assets/photos/1iTMkneikLnfBAkebSzf9bKAmFCskdz6_.webp",
-                  "full": "assets/photos/1iTMkneikLnfBAkebSzf9bKAmFCskdz6_.webp"
-                },
-                {
                   "fileId": "1Jyvwki9YoJoUU4E1voLN5HEbjWaijKm4",
                   "thumb": "assets/photos/1Jyvwki9YoJoUU4E1voLN5HEbjWaijKm4.webp",
                   "full": "assets/photos/1Jyvwki9YoJoUU4E1voLN5HEbjWaijKm4.webp"
@@ -20097,11 +20614,6 @@
                   "fileId": "10O0sHCYcN4EHSAoiI53XiuDHbhOPmG1o",
                   "thumb": "assets/photos/10O0sHCYcN4EHSAoiI53XiuDHbhOPmG1o.webp",
                   "full": "assets/photos/10O0sHCYcN4EHSAoiI53XiuDHbhOPmG1o.webp"
-                },
-                {
-                  "fileId": "1dzNs5y5bub706IoYHpuC2ZrsFgaSUTis",
-                  "thumb": "assets/photos/1dzNs5y5bub706IoYHpuC2ZrsFgaSUTis.webp",
-                  "full": "assets/photos/1dzNs5y5bub706IoYHpuC2ZrsFgaSUTis.webp"
                 }
               ]
             },
@@ -20117,16 +20629,6 @@
                   "fileId": "16fzUQYuUz_BUS0fwrJSFEDf64Sz-WhH8",
                   "thumb": "assets/photos/16fzUQYuUz_BUS0fwrJSFEDf64Sz-WhH8.webp",
                   "full": "assets/photos/16fzUQYuUz_BUS0fwrJSFEDf64Sz-WhH8.webp"
-                },
-                {
-                  "fileId": "1uZZypfhMSIO4W_derAzzkDHDbzTZP1Kh",
-                  "thumb": "assets/photos/1uZZypfhMSIO4W_derAzzkDHDbzTZP1Kh.webp",
-                  "full": "assets/photos/1uZZypfhMSIO4W_derAzzkDHDbzTZP1Kh.webp"
-                },
-                {
-                  "fileId": "18TvB0G6WfKuNwSvnSBUOxrqNkzp1Ek51",
-                  "thumb": "assets/photos/18TvB0G6WfKuNwSvnSBUOxrqNkzp1Ek51.webp",
-                  "full": "assets/photos/18TvB0G6WfKuNwSvnSBUOxrqNkzp1Ek51.webp"
                 },
                 {
                   "fileId": "1WVIekZGnmYm-7AGBSwdNrYMZVadpp6Uh",
@@ -20147,11 +20649,6 @@
                   "fileId": "1SbBGc5dxZBF4tO-NHYNU6CE9t3r66j3B",
                   "thumb": "assets/photos/1SbBGc5dxZBF4tO-NHYNU6CE9t3r66j3B.webp",
                   "full": "assets/photos/1SbBGc5dxZBF4tO-NHYNU6CE9t3r66j3B.webp"
-                },
-                {
-                  "fileId": "1UZeDGDXudfSVtu8l6WXPSEo9JSevpBTX",
-                  "thumb": "assets/photos/1UZeDGDXudfSVtu8l6WXPSEo9JSevpBTX.webp",
-                  "full": "assets/photos/1UZeDGDXudfSVtu8l6WXPSEo9JSevpBTX.webp"
                 },
                 {
                   "fileId": "1GpNsk_VR5fSv74WLMt1U50G8kgtNgXCv",
@@ -20195,8 +20692,8 @@
         {
           "date": "2026-09-06",
           "submittedAt": "2026-09-06T12:18:11+08:00",
-          "surveyor": "郭三賢, 陳寶樹, 劉中慧",
-          "recorder": "陳寶樹",
+          "surveyor": "KSH, CPS, LCH",
+          "recorder": "CPS",
           "sections": [
             {
               "title": "基本資訊",
@@ -20451,8 +20948,8 @@
         {
           "date": "2026-08-19",
           "submittedAt": "",
-          "surveyor": "飛魚",
-          "recorder": "飛魚",
+          "surveyor": "LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -20631,8 +21128,8 @@
         {
           "date": "2026-07-21",
           "submittedAt": "2026-07-21T11:37:25+08:00",
-          "surveyor": "郭三賢, 黃惠慶",
-          "recorder": "黄惠慶",
+          "surveyor": "KSH, HHC",
+          "recorder": "HHC",
           "sections": [
             {
               "title": "基本資訊",
@@ -20897,8 +21394,8 @@
         {
           "date": "2026-05-17",
           "submittedAt": "2026-05-17T18:06:37+08:00",
-          "surveyor": "劉峻儒",
-          "recorder": "同上",
+          "surveyor": "LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -21187,8 +21684,8 @@
         {
           "date": "2026-10-17",
           "submittedAt": "2026-10-17T11:15:41+08:00",
-          "surveyor": "曾明堂, 劉峻儒",
-          "recorder": "飛魚",
+          "surveyor": "TMT, LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -21380,11 +21877,6 @@
                   "fileId": "1VWobS6FhmE108llUKm3Zj3UEd9FVWzXF",
                   "thumb": "assets/photos/1VWobS6FhmE108llUKm3Zj3UEd9FVWzXF.webp",
                   "full": "assets/photos/1VWobS6FhmE108llUKm3Zj3UEd9FVWzXF.webp"
-                },
-                {
-                  "fileId": "1lPkfVL49mUsJ5JbVFcI6AloapDm90Zkz",
-                  "thumb": "assets/photos/1lPkfVL49mUsJ5JbVFcI6AloapDm90Zkz.webp",
-                  "full": "assets/photos/1lPkfVL49mUsJ5JbVFcI6AloapDm90Zkz.webp"
                 }
               ]
             },
@@ -21400,16 +21892,6 @@
                   "fileId": "14ZxioY4Z0SKayQoosiY0z7ORZN7-cBlN",
                   "thumb": "assets/photos/14ZxioY4Z0SKayQoosiY0z7ORZN7-cBlN.webp",
                   "full": "assets/photos/14ZxioY4Z0SKayQoosiY0z7ORZN7-cBlN.webp"
-                },
-                {
-                  "fileId": "1d1NX3VR0EDi0qN0K8sFrvFxsB2mFxW45",
-                  "thumb": "assets/photos/1d1NX3VR0EDi0qN0K8sFrvFxsB2mFxW45.webp",
-                  "full": "assets/photos/1d1NX3VR0EDi0qN0K8sFrvFxsB2mFxW45.webp"
-                },
-                {
-                  "fileId": "1AQBPg4j9qXvwZwDQCyjrx0imMcqE5mKY",
-                  "thumb": "assets/photos/1AQBPg4j9qXvwZwDQCyjrx0imMcqE5mKY.webp",
-                  "full": "assets/photos/1AQBPg4j9qXvwZwDQCyjrx0imMcqE5mKY.webp"
                 }
               ]
             },
@@ -21437,19 +21919,14 @@
               "label": "水質照片",
               "photos": [
                 {
-                  "fileId": "1RS3vNmVlRVNfsqq52tGZ46AbeJSRUwxi",
-                  "thumb": "assets/photos/1RS3vNmVlRVNfsqq52tGZ46AbeJSRUwxi.webp",
-                  "full": "assets/photos/1RS3vNmVlRVNfsqq52tGZ46AbeJSRUwxi.webp"
-                },
-                {
                   "fileId": "1yPWYUGcaeQrXyqUiVzGLwgj-6fGRziN4",
                   "thumb": "assets/photos/1yPWYUGcaeQrXyqUiVzGLwgj-6fGRziN4.webp",
                   "full": "assets/photos/1yPWYUGcaeQrXyqUiVzGLwgj-6fGRziN4.webp"
                 },
                 {
-                  "fileId": "1934bPQ_oHMY8BWQIDTtVLe49Ph51lN1a",
-                  "thumb": "assets/photos/1934bPQ_oHMY8BWQIDTtVLe49Ph51lN1a.webp",
-                  "full": "assets/photos/1934bPQ_oHMY8BWQIDTtVLe49Ph51lN1a.webp"
+                  "fileId": "1RS3vNmVlRVNfsqq52tGZ46AbeJSRUwxi",
+                  "thumb": "assets/photos/1RS3vNmVlRVNfsqq52tGZ46AbeJSRUwxi.webp",
+                  "full": "assets/photos/1RS3vNmVlRVNfsqq52tGZ46AbeJSRUwxi.webp"
                 }
               ]
             },
@@ -21488,8 +21965,8 @@
         {
           "date": "2026-09-29",
           "submittedAt": "",
-          "surveyor": "飛魚",
-          "recorder": "飛魚",
+          "surveyor": "LCZ",
+          "recorder": "LCZ",
           "sections": [
             {
               "title": "基本資訊",
@@ -21668,8 +22145,8 @@
         {
           "date": "2026-08-30",
           "submittedAt": "2026-08-30T09:34:29+08:00",
-          "surveyor": "曾明堂, 蔡文勝",
-          "recorder": "曾明堂",
+          "surveyor": "TMT, TWS",
+          "recorder": "TMT",
           "sections": [
             {
               "title": "基本資訊",
@@ -21914,8 +22391,8 @@
         {
           "date": "2026-07-23",
           "submittedAt": "2026-07-23T21:37:45+08:00",
-          "surveyor": "林煌松, 陳寶樹, 劉中慧",
-          "recorder": "陳寶樹",
+          "surveyor": "LHS, CPS, LCH",
+          "recorder": "CPS",
           "sections": [
             {
               "title": "基本資訊",
@@ -22180,8 +22657,8 @@
         {
           "date": "2026-05-16",
           "submittedAt": "2026-05-16T13:00:07+08:00",
-          "surveyor": "林煌松, 陳寶樹, 劉中慧",
-          "recorder": "劉中慧",
+          "surveyor": "LHS, CPS, LCH",
+          "recorder": "LCH",
           "sections": [
             {
               "title": "基本資訊",
