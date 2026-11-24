@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T23:17:07.022Z",
+  "generatedAt": "2026-11-24T03:51:00.229Z",
   "source": "csvPublic",
   "points": [
     {
@@ -3577,14 +3577,24 @@
               "label": "水生物照片",
               "photos": [
                 {
-                  "fileId": "1dDMCNk_fGAgc8MrQLDkbY4AdnPWC_kdU",
-                  "thumb": "assets/photos/1dDMCNk_fGAgc8MrQLDkbY4AdnPWC_kdU.webp",
-                  "full": "assets/photos/1dDMCNk_fGAgc8MrQLDkbY4AdnPWC_kdU.webp"
+                  "fileId": "1Bn-fyjbpGyswwoaym2zAbUcmOdZed7Vs",
+                  "thumb": "assets/photos/1Bn-fyjbpGyswwoaym2zAbUcmOdZed7Vs.webp",
+                  "full": "assets/photos/1Bn-fyjbpGyswwoaym2zAbUcmOdZed7Vs.webp"
                 },
                 {
-                  "fileId": "1UU0fZZWfBfj3PAMFeGW0d_Pa9jKw-kP8",
-                  "thumb": "assets/photos/1UU0fZZWfBfj3PAMFeGW0d_Pa9jKw-kP8.webp",
-                  "full": "assets/photos/1UU0fZZWfBfj3PAMFeGW0d_Pa9jKw-kP8.webp"
+                  "fileId": "15pCWC-U_kLKRMZ7bplVfrvW5aKh6ePaP",
+                  "thumb": "assets/photos/15pCWC-U_kLKRMZ7bplVfrvW5aKh6ePaP.webp",
+                  "full": "assets/photos/15pCWC-U_kLKRMZ7bplVfrvW5aKh6ePaP.webp"
+                },
+                {
+                  "fileId": "1J9aquCpAObd4EU9iS9JAGzdVzYBPF38z",
+                  "thumb": "assets/photos/1J9aquCpAObd4EU9iS9JAGzdVzYBPF38z.webp",
+                  "full": "assets/photos/1J9aquCpAObd4EU9iS9JAGzdVzYBPF38z.webp"
+                },
+                {
+                  "fileId": "1xl-OYYALfKBjR1Ypjq7sVF-LCqOIOHLe",
+                  "thumb": "assets/photos/1xl-OYYALfKBjR1Ypjq7sVF-LCqOIOHLe.webp",
+                  "full": "assets/photos/1xl-OYYALfKBjR1Ypjq7sVF-LCqOIOHLe.webp"
                 }
               ]
             },
@@ -7097,7 +7107,7 @@
               "fields": [
                 {
                   "label": "【海草+海藻】總覆蓋率 [海草]",
-                  "value": "0%"
+                  "value": "100%"
                 },
                 {
                   "label": "【海草+海藻】總覆蓋率 [海藻]",
@@ -7155,7 +7165,7 @@
               "fields": [
                 {
                   "label": "【海草+海藻】總覆蓋率 [海草]",
-                  "value": "100%"
+                  "value": "0%"
                 },
                 {
                   "label": "【海草+海藻】總覆蓋率 [海藻]",
@@ -7167,7 +7177,7 @@
                 },
                 {
                   "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
-                  "value": "100%, 普通"
+                  "value": "0%"
                 },
                 {
                   "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
@@ -7355,6 +7365,36 @@
                   "fileId": "1QnetjkycjVMm7agjPgcXaNyUf8_ywd0J",
                   "thumb": "assets/photos/1QnetjkycjVMm7agjPgcXaNyUf8_ywd0J.webp",
                   "full": "assets/photos/1QnetjkycjVMm7agjPgcXaNyUf8_ywd0J.webp"
+                }
+              ]
+            },
+            {
+              "label": "水生物照片",
+              "photos": [
+                {
+                  "fileId": "151nNeD_lORLkXp-En0xdKRgEBOKMckPP",
+                  "thumb": "assets/photos/151nNeD_lORLkXp-En0xdKRgEBOKMckPP.webp",
+                  "full": "assets/photos/151nNeD_lORLkXp-En0xdKRgEBOKMckPP.webp"
+                },
+                {
+                  "fileId": "1NcARWWumx3X0y6w88dgUh6C7sXafeoQQ",
+                  "thumb": "assets/photos/1NcARWWumx3X0y6w88dgUh6C7sXafeoQQ.webp",
+                  "full": "assets/photos/1NcARWWumx3X0y6w88dgUh6C7sXafeoQQ.webp"
+                },
+                {
+                  "fileId": "1YGL-YtotuqR76MUOzWJkX5UCQ5jXuC47",
+                  "thumb": "assets/photos/1YGL-YtotuqR76MUOzWJkX5UCQ5jXuC47.webp",
+                  "full": "assets/photos/1YGL-YtotuqR76MUOzWJkX5UCQ5jXuC47.webp"
+                },
+                {
+                  "fileId": "1R5dtgtxfpNTqJv_eZeaLs6khTHOapdo9",
+                  "thumb": "assets/photos/1R5dtgtxfpNTqJv_eZeaLs6khTHOapdo9.webp",
+                  "full": "assets/photos/1R5dtgtxfpNTqJv_eZeaLs6khTHOapdo9.webp"
+                },
+                {
+                  "fileId": "1OeY_Yy_EOWQ3tba_LyiPA1NjVT15UGqV",
+                  "thumb": "assets/photos/1OeY_Yy_EOWQ3tba_LyiPA1NjVT15UGqV.webp",
+                  "full": "assets/photos/1OeY_Yy_EOWQ3tba_LyiPA1NjVT15UGqV.webp"
                 }
               ]
             },
@@ -10837,19 +10877,29 @@
               "label": "水生物照片",
               "photos": [
                 {
-                  "fileId": "1s5WLrMJQcmqdSCSSxA2YKUOfpmuGVYhb",
-                  "thumb": "assets/photos/1s5WLrMJQcmqdSCSSxA2YKUOfpmuGVYhb.webp",
-                  "full": "assets/photos/1s5WLrMJQcmqdSCSSxA2YKUOfpmuGVYhb.webp"
+                  "fileId": "1Pcr3IkIzBhY8BxTBrT4SEYlXPF4rRuwb",
+                  "thumb": "assets/photos/1Pcr3IkIzBhY8BxTBrT4SEYlXPF4rRuwb.webp",
+                  "full": "assets/photos/1Pcr3IkIzBhY8BxTBrT4SEYlXPF4rRuwb.webp"
                 },
                 {
-                  "fileId": "1CPBZmmU7uYneWwpsMtbNnasR92p61tRJ",
-                  "thumb": "assets/photos/1CPBZmmU7uYneWwpsMtbNnasR92p61tRJ.webp",
-                  "full": "assets/photos/1CPBZmmU7uYneWwpsMtbNnasR92p61tRJ.webp"
+                  "fileId": "1n8X27eQKQXe2FrEeWnd-55l7LrLnHDH5",
+                  "thumb": "assets/photos/1n8X27eQKQXe2FrEeWnd-55l7LrLnHDH5.webp",
+                  "full": "assets/photos/1n8X27eQKQXe2FrEeWnd-55l7LrLnHDH5.webp"
                 },
                 {
-                  "fileId": "1fP68eb1u6b9isC69xTBcfuvNcd8-I0d9",
-                  "thumb": "assets/photos/1fP68eb1u6b9isC69xTBcfuvNcd8-I0d9.webp",
-                  "full": "assets/photos/1fP68eb1u6b9isC69xTBcfuvNcd8-I0d9.webp"
+                  "fileId": "1uFx4R1ofNdEmF3B0kyNdBNRrMEMHorRF",
+                  "thumb": "assets/photos/1uFx4R1ofNdEmF3B0kyNdBNRrMEMHorRF.webp",
+                  "full": "assets/photos/1uFx4R1ofNdEmF3B0kyNdBNRrMEMHorRF.webp"
+                },
+                {
+                  "fileId": "1F57QtU2ukn6s0M6Uzu4w1B3_V57t6cA3",
+                  "thumb": "assets/photos/1F57QtU2ukn6s0M6Uzu4w1B3_V57t6cA3.webp",
+                  "full": "assets/photos/1F57QtU2ukn6s0M6Uzu4w1B3_V57t6cA3.webp"
+                },
+                {
+                  "fileId": "1VPgcu7qID4UlekSwPtoGJZAk2IaZUiaj",
+                  "thumb": "assets/photos/1VPgcu7qID4UlekSwPtoGJZAk2IaZUiaj.webp",
+                  "full": "assets/photos/1VPgcu7qID4UlekSwPtoGJZAk2IaZUiaj.webp"
                 }
               ]
             }
@@ -14369,19 +14419,34 @@
               "label": "水生物照片",
               "photos": [
                 {
-                  "fileId": "1WITzYIhF1Tb5lg8c3pwLw8vWJxEEvBHI",
-                  "thumb": "assets/photos/1WITzYIhF1Tb5lg8c3pwLw8vWJxEEvBHI.webp",
-                  "full": "assets/photos/1WITzYIhF1Tb5lg8c3pwLw8vWJxEEvBHI.webp"
+                  "fileId": "1q2xoCKqYgY2FTF3r3lnnjADR4y3UyJFq",
+                  "thumb": "assets/photos/1q2xoCKqYgY2FTF3r3lnnjADR4y3UyJFq.webp",
+                  "full": "assets/photos/1q2xoCKqYgY2FTF3r3lnnjADR4y3UyJFq.webp"
                 },
                 {
-                  "fileId": "1GHfWmnOEyE_OM-c4t1GfQsYJAKP7ztlT",
-                  "thumb": "assets/photos/1GHfWmnOEyE_OM-c4t1GfQsYJAKP7ztlT.webp",
-                  "full": "assets/photos/1GHfWmnOEyE_OM-c4t1GfQsYJAKP7ztlT.webp"
+                  "fileId": "1peyAnp19NQjIkw6RcPQoffDAITtrc14k",
+                  "thumb": "assets/photos/1peyAnp19NQjIkw6RcPQoffDAITtrc14k.webp",
+                  "full": "assets/photos/1peyAnp19NQjIkw6RcPQoffDAITtrc14k.webp"
                 },
                 {
-                  "fileId": "1XXZIK6veN9Zuq1ffDGs2Lw5GGGki-aQK",
-                  "thumb": "assets/photos/1XXZIK6veN9Zuq1ffDGs2Lw5GGGki-aQK.webp",
-                  "full": "assets/photos/1XXZIK6veN9Zuq1ffDGs2Lw5GGGki-aQK.webp"
+                  "fileId": "1gRvA9i81EVBvEQey61N4T1oC1dJSMpop",
+                  "thumb": "assets/photos/1gRvA9i81EVBvEQey61N4T1oC1dJSMpop.webp",
+                  "full": "assets/photos/1gRvA9i81EVBvEQey61N4T1oC1dJSMpop.webp"
+                },
+                {
+                  "fileId": "1q4eSluf2-PiSprfL0xsy6MpOKLQHkg_P",
+                  "thumb": "assets/photos/1q4eSluf2-PiSprfL0xsy6MpOKLQHkg_P.webp",
+                  "full": "assets/photos/1q4eSluf2-PiSprfL0xsy6MpOKLQHkg_P.webp"
+                },
+                {
+                  "fileId": "1OANeHJIiKhDzZttD7vJshp9fnWarEccX",
+                  "thumb": "assets/photos/1OANeHJIiKhDzZttD7vJshp9fnWarEccX.webp",
+                  "full": "assets/photos/1OANeHJIiKhDzZttD7vJshp9fnWarEccX.webp"
+                },
+                {
+                  "fileId": "1ktVBBKxx-fCS9Vl56Lgb04UPykMa4KFL",
+                  "thumb": "assets/photos/1ktVBBKxx-fCS9Vl56Lgb04UPykMa4KFL.webp",
+                  "full": "assets/photos/1ktVBBKxx-fCS9Vl56Lgb04UPykMa4KFL.webp"
                 }
               ]
             },
