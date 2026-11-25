@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T03:51:00.229Z",
+  "generatedAt": "2026-11-25T01:56:56.959Z",
   "source": "csvPublic",
   "points": [
     {
@@ -19334,7 +19334,7 @@
               "fields": [
                 {
                   "label": "【海草+海藻】總覆蓋率 [海草]",
-                  "value": "0%"
+                  "value": "50%"
                 },
                 {
                   "label": "【海草+海藻】總覆蓋率 [海藻]",
@@ -19342,11 +19342,11 @@
                 },
                 {
                   "label": "【海草】物種覆蓋率 [卵葉鹽草]",
-                  "value": "0%"
+                  "value": "30%, 普通"
                 },
                 {
                   "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
-                  "value": "0%"
+                  "value": "20%, 普通"
                 },
                 {
                   "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
@@ -19363,7 +19363,7 @@
               "fields": [
                 {
                   "label": "本點位的整體觀察",
-                  "value": "無/C點位遺失"
+                  "value": "少量龍鬚菜附著。C點位遺失(11/14補作)"
                 }
               ]
             },
@@ -23933,6 +23933,317 @@
       "pointId": 10,
       "name": "點位10",
       "surveys": [
+        {
+          "date": "2026-11-24",
+          "submittedAt": "2026-11-24T10:29:11+08:00",
+          "surveyor": "峻儒",
+          "recorder": "峻儒",
+          "sections": [
+            {
+              "title": "基本資訊",
+              "fields": [
+                {
+                  "label": "天候狀況",
+                  "value": "陰"
+                },
+                {
+                  "label": "潮汐",
+                  "value": "退潮中 (滿潮後 1 小時 ~ 乾潮前)"
+                },
+                {
+                  "label": "點位調查時間",
+                  "value": "上午 9:56:00"
+                }
+              ]
+            },
+            {
+              "title": "Ａ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "60%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "10%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "20%, 差"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "40%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "10%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%"
+                }
+              ]
+            },
+            {
+              "title": "Ｂ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "60%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "10%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "30%, 差"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "30%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "10%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%"
+                }
+              ]
+            },
+            {
+              "title": "Ｃ樣框覆蓋率",
+              "fields": [
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海草]",
+                  "value": "30%"
+                },
+                {
+                  "label": "【海草+海藻】總覆蓋率 [海藻]",
+                  "value": "0%"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [卵葉鹽草]",
+                  "value": "20%, 差"
+                },
+                {
+                  "label": "【海草】物種覆蓋率 [單脈/線葉二藥草]",
+                  "value": "10%, 差"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [紅藻門 / 龍鬚菜]",
+                  "value": "0%"
+                },
+                {
+                  "label": "《海藻》物種覆蓋率 [綠藻門 / 軟絲藻]",
+                  "value": "0%"
+                }
+              ]
+            },
+            {
+              "title": "整體觀察",
+              "fields": [
+                {
+                  "label": "本點位的整體觀察",
+                  "value": "藻類附著明顯"
+                }
+              ]
+            },
+            {
+              "title": "水質",
+              "fields": [
+                {
+                  "label": "1.水溫",
+                  "value": "23"
+                },
+                {
+                  "label": "2.鹽度",
+                  "value": "38"
+                },
+                {
+                  "label": "3.pH",
+                  "value": "8.4 以上"
+                },
+                {
+                  "label": "4.亞硝酸鹽（NO₂⁻）",
+                  "value": "1 - 5"
+                },
+                {
+                  "label": "5.硝酸鹽（NO₃⁻）",
+                  "value": "10 - 25"
+                },
+                {
+                  "label": "6.氨氮（NH4/NH₃）",
+                  "value": "0 - 0.5"
+                },
+                {
+                  "label": "水質狀況說明（異常、異味、顏色、漂浮物等）",
+                  "value": "清澈但藻類多"
+                }
+              ]
+            },
+            {
+              "title": "植株與物候",
+              "fields": [
+                {
+                  "label": "株數 - 卵葉鹽草",
+                  "value": "18"
+                },
+                {
+                  "label": "株數 - 線葉二藥草",
+                  "value": "51"
+                },
+                {
+                  "label": "卵葉 - 葉長 (庇護高度 cm)",
+                  "value": "4.7"
+                },
+                {
+                  "label": "線葉 - 葉長 (庇護高度 cm)",
+                  "value": "8.7"
+                },
+                {
+                  "label": "物候階段觀察、記錄",
+                  "value": "葉片老化"
+                }
+              ]
+            }
+          ],
+          "photoGroups": [
+            {
+              "label": "Ａ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1TsS0W6vIjD2J6gA2krbFdJnqirYRfRiY",
+                  "thumb": "assets/photos/1TsS0W6vIjD2J6gA2krbFdJnqirYRfRiY.webp",
+                  "full": "assets/photos/1TsS0W6vIjD2J6gA2krbFdJnqirYRfRiY.webp"
+                },
+                {
+                  "fileId": "14a8UgQk1ZOUx9oeMM5lM2YVSCCqSdkqi",
+                  "thumb": "assets/photos/14a8UgQk1ZOUx9oeMM5lM2YVSCCqSdkqi.webp",
+                  "full": "assets/photos/14a8UgQk1ZOUx9oeMM5lM2YVSCCqSdkqi.webp"
+                },
+                {
+                  "fileId": "1L_iqWR2yWkQd8hbfiFX31sh-xkX-aCQs",
+                  "thumb": "assets/photos/1L_iqWR2yWkQd8hbfiFX31sh-xkX-aCQs.webp",
+                  "full": "assets/photos/1L_iqWR2yWkQd8hbfiFX31sh-xkX-aCQs.webp"
+                },
+                {
+                  "fileId": "1LfWq9l4Hce8xKVTgzGDQ3tuqNZAvZKFi",
+                  "thumb": "assets/photos/1LfWq9l4Hce8xKVTgzGDQ3tuqNZAvZKFi.webp",
+                  "full": "assets/photos/1LfWq9l4Hce8xKVTgzGDQ3tuqNZAvZKFi.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｂ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1IO7wWzaqQhr2ULUKbuIkSbCTfhVwcRho",
+                  "thumb": "assets/photos/1IO7wWzaqQhr2ULUKbuIkSbCTfhVwcRho.webp",
+                  "full": "assets/photos/1IO7wWzaqQhr2ULUKbuIkSbCTfhVwcRho.webp"
+                },
+                {
+                  "fileId": "1QexM6ezBBhOzK9qhLKJjgPVxXIR2a8-0",
+                  "thumb": "assets/photos/1QexM6ezBBhOzK9qhLKJjgPVxXIR2a8-0.webp",
+                  "full": "assets/photos/1QexM6ezBBhOzK9qhLKJjgPVxXIR2a8-0.webp"
+                },
+                {
+                  "fileId": "1g1gv99zNLSkIY3Q4zx3udFRQW-6AyzGV",
+                  "thumb": "assets/photos/1g1gv99zNLSkIY3Q4zx3udFRQW-6AyzGV.webp",
+                  "full": "assets/photos/1g1gv99zNLSkIY3Q4zx3udFRQW-6AyzGV.webp"
+                },
+                {
+                  "fileId": "1Cs7ZI3wBIMgFj-i3x_n0NUzziTARyfIk",
+                  "thumb": "assets/photos/1Cs7ZI3wBIMgFj-i3x_n0NUzziTARyfIk.webp",
+                  "full": "assets/photos/1Cs7ZI3wBIMgFj-i3x_n0NUzziTARyfIk.webp"
+                }
+              ]
+            },
+            {
+              "label": "Ｃ樣框照片",
+              "photos": [
+                {
+                  "fileId": "1XpWx59X8kHtqBnghyqy_LPSDGTWvir29",
+                  "thumb": "assets/photos/1XpWx59X8kHtqBnghyqy_LPSDGTWvir29.webp",
+                  "full": "assets/photos/1XpWx59X8kHtqBnghyqy_LPSDGTWvir29.webp"
+                },
+                {
+                  "fileId": "1u0ievQp9RIHbyLrTvZ9TVTV6Jjg7op3v",
+                  "thumb": "assets/photos/1u0ievQp9RIHbyLrTvZ9TVTV6Jjg7op3v.webp",
+                  "full": "assets/photos/1u0ievQp9RIHbyLrTvZ9TVTV6Jjg7op3v.webp"
+                },
+                {
+                  "fileId": "1G4h-KiO3-ZBWjtwZ60u988peKnRKzmzB",
+                  "thumb": "assets/photos/1G4h-KiO3-ZBWjtwZ60u988peKnRKzmzB.webp",
+                  "full": "assets/photos/1G4h-KiO3-ZBWjtwZ60u988peKnRKzmzB.webp"
+                },
+                {
+                  "fileId": "1-PpWq85q_1mZgjgpBM3DSp1nt418amCY",
+                  "thumb": "assets/photos/1-PpWq85q_1mZgjgpBM3DSp1nt418amCY.webp",
+                  "full": "assets/photos/1-PpWq85q_1mZgjgpBM3DSp1nt418amCY.webp"
+                }
+              ]
+            },
+            {
+              "label": "水質照片",
+              "photos": [
+                {
+                  "fileId": "1Atx8RhSMJ7-CKG0GmgciC0tK0qiFcfIa",
+                  "thumb": "assets/photos/1Atx8RhSMJ7-CKG0GmgciC0tK0qiFcfIa.webp",
+                  "full": "assets/photos/1Atx8RhSMJ7-CKG0GmgciC0tK0qiFcfIa.webp"
+                },
+                {
+                  "fileId": "11iGUjtV94Lb2iAoUAHoLgzPwB73bbeCr",
+                  "thumb": "assets/photos/11iGUjtV94Lb2iAoUAHoLgzPwB73bbeCr.webp",
+                  "full": "assets/photos/11iGUjtV94Lb2iAoUAHoLgzPwB73bbeCr.webp"
+                },
+                {
+                  "fileId": "1FhONVxqPHIOO-7K72W2HDJTTUjqjaEP2",
+                  "thumb": "assets/photos/1FhONVxqPHIOO-7K72W2HDJTTUjqjaEP2.webp",
+                  "full": "assets/photos/1FhONVxqPHIOO-7K72W2HDJTTUjqjaEP2.webp"
+                },
+                {
+                  "fileId": "1VuDxbpuDHl9lMZKDHBXKcefzTP20AuUJ",
+                  "thumb": "assets/photos/1VuDxbpuDHl9lMZKDHBXKcefzTP20AuUJ.webp",
+                  "full": "assets/photos/1VuDxbpuDHl9lMZKDHBXKcefzTP20AuUJ.webp"
+                }
+              ]
+            },
+            {
+              "label": "樣本照片",
+              "photos": [
+                {
+                  "fileId": "1zlIsK5wb0NtcYoB_CfoExpceS9870t8F",
+                  "thumb": "assets/photos/1zlIsK5wb0NtcYoB_CfoExpceS9870t8F.webp",
+                  "full": "assets/photos/1zlIsK5wb0NtcYoB_CfoExpceS9870t8F.webp"
+                },
+                {
+                  "fileId": "1zwy-TQmPh9XGHR95sc-qGrs6YqOJx114",
+                  "thumb": "assets/photos/1zwy-TQmPh9XGHR95sc-qGrs6YqOJx114.webp",
+                  "full": "assets/photos/1zwy-TQmPh9XGHR95sc-qGrs6YqOJx114.webp"
+                },
+                {
+                  "fileId": "1H8joRQz6pdmgnts9CnQKnILi42xy2_8U",
+                  "thumb": "assets/photos/1H8joRQz6pdmgnts9CnQKnILi42xy2_8U.webp",
+                  "full": "assets/photos/1H8joRQz6pdmgnts9CnQKnILi42xy2_8U.webp"
+                },
+                {
+                  "fileId": "1c_dcbnle_0YD8rMq7-m7poPK-5m9C0BK",
+                  "thumb": "assets/photos/1c_dcbnle_0YD8rMq7-m7poPK-5m9C0BK.webp",
+                  "full": "assets/photos/1c_dcbnle_0YD8rMq7-m7poPK-5m9C0BK.webp"
+                },
+                {
+                  "fileId": "145_G4RX-2Dm1H-UvSFhy9SofdUcUw9A8",
+                  "thumb": "assets/photos/145_G4RX-2Dm1H-UvSFhy9SofdUcUw9A8.webp",
+                  "full": "assets/photos/145_G4RX-2Dm1H-UvSFhy9SofdUcUw9A8.webp"
+                }
+              ]
+            }
+          ]
+        },
         {
           "date": "2026-10-17",
           "submittedAt": "2026-10-17T11:15:41+08:00",
